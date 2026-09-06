@@ -51,8 +51,27 @@ function summarize(stdout: string, stderr: string): string {
   return `${text.slice(0, 4000)}\n…[truncated]`;
 }
 
+export function resolveTargetRepoRoot(opts: {
+  repoRoot?: string;
+  env?: NodeJS.ProcessEnv;
+  cwd?: string;
+} = {}): string {
+  if (opts.repoRoot) {
+    return opts.repoRoot;
+  }
+  const env = opts.env ?? process.env;
+  const workspace = env.CODEX_WORKSPACE_ROOT?.trim();
+  if (workspace) {
+    return workspace;
+  }
+  return gitOrThrow(opts.cwd ?? process.cwd(), ["rev-parse", "--show-toplevel"]);
+}
+
 export async function runHarness(opts: RunHarnessOptions): Promise<Evidence> {
-  const repoRoot = opts.repoRoot ?? gitOrThrow(process.cwd(), ["rev-parse", "--show-toplevel"]);
+  const repoRoot = resolveTargetRepoRoot({
+    repoRoot: opts.repoRoot,
+    env: opts.extraEnv ? { ...process.env, ...opts.extraEnv } : process.env,
+  });
   const started = new Date();
   const runId = newRunId();
   const branch = `harness/${opts.name}/${runId}`;

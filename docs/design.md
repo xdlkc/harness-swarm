@@ -26,6 +26,8 @@ human → Codex session
 
 The plugin is installed once and operates on **the git repository Codex currently has open**, not on this plugin repo.
 
+Plugin MCP launch (`mcp.json`) sets `"cwd": "."`. Codex joins that relative cwd onto the installed plugin root, so `./bin/harness-swarm-mcp` is found even when the session cwd is another project. Without `cwd`, Codex leaves relative args against the session cwd and the server never starts. `run_harness` still targets the user repo via `CODEX_WORKSPACE_ROOT` (tool-call env) or `git rev-parse --show-toplevel`, not the MCP process cwd.
+
 ## MCP tools
 
 ### `list_harnesses`
