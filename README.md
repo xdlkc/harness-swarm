@@ -15,9 +15,9 @@ node dist/src/cli.js list
 `run` (uses a real harness; not required for CI):
 
 ```bash
-node dist/src/cli.js run --name pi --prompt "Summarize this repo in one paragraph"
+node dist/src/cli.js run --name pi --prompt "Summarize this repo in one paragraph" --repo /absolute/path/to/project
 ```
 
 ## Codex plugin
 
-Install from this folder as a local plugin. The MCP server is `bin/harness-swarm-mcp` (stdio JSON-RPC). Tools: `list_harnesses`, `run_harness`.
+Install from this folder as a local plugin. MCP `cwd` is `"."` (plugin root). Tools: `list_harnesses`, `run_harness`. `run_harness` requires `repo_root` as the absolute path of the git repo Codex has open.

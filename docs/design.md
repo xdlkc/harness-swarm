@@ -36,7 +36,9 @@ Reports the four names. For each binary found on `PATH`, include path and a non-
 
 ### `run_harness`
 
-Required: `name` (`qoder` | `kimi` | `pi` | `grok`), `prompt`.
+Required: `name` (`qoder` | `kimi` | `pi` | `grok`), `prompt`, `repo_root`.
+
+`repo_root` is the absolute path of the git repository Codex has open. Codex plugin stdio does not inject `CODEX_WORKSPACE_ROOT`, and `mcp.json` `"cwd": "."` starts the server in the plugin root, so the handler must not `git rev-parse` process cwd. The Skill passes the session workspace path. Relative `repo_root` is rejected.
 
 Optional: `model`, `max_turns` (honored only if that CLI has the flag), `timeout_ms` (default 1200000).
 

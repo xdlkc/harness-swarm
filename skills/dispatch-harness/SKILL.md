@@ -10,7 +10,7 @@ You are the orchestrator. Humans keep goals and merge authority. Call MCP tools;
 ## Tools
 
 - `list_harnesses` — path + version for qoder, kimi, pi, grok when installed.
-- `run_harness` — required `name` and `prompt`. Creates a git worktree, runs that harness headlessly, returns evidence. Never merges.
+- `run_harness` — required `name`, `prompt`, and `repo_root`. `repo_root` must be the **absolute** path of the git repository Codex currently has open (the session workspace). The MCP server process cwd is the plugin install/cache directory, not the user project. Never omit `repo_root`; never pass a relative path. Creates a git worktree under that repo, runs the harness headlessly, returns evidence. Never merges.
 
 ## Choosing `name`
 

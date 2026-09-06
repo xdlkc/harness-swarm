@@ -2,9 +2,7 @@
 /**
  * Minimal MCP stdio server. Tools call the same shipped list/dispatch functions as the CLI.
  */
-import { isHarnessName } from "./types.js";
-import { listHarnesses } from "./list-harnesses.js";
-import { runHarness } from "./dispatch.js";
+import { callMcpTool, RUN_HARNESS_SCHEMA } from "./mcp-tools.js";
 
 interface RpcRequest {
   jsonrpc: "2.0";
@@ -36,19 +34,8 @@ const TOOLS = [
   {
     name: "run_harness",
     description:
-      "Create a git worktree, run one named harness headlessly, return evidence. Does not merge.",
-    inputSchema: {
-      type: "object",
-      properties: {
-        name: { type: "string", enum: ["qoder", "kimi", "pi", "grok"] },
-        prompt: { type: "string" },
-        model: { type: "string" },
-        max_turns: { type: "number" },
-        timeout_ms: { type: "number" },
-      },
-      required: ["name", "prompt"],
-      additionalProperties: false,
-    },
+      "Create a git worktree in repo_root, run one named harness headlessly, return evidence. Does not merge. repo_root must be the absolute path of the git repo Codex has open (plugin MCP cwd is the plugin, not the workspace).",
+    inputSchema: RUN_HARNESS_SCHEMA,
   },
 ];
 
@@ -80,33 +67,13 @@ async function handle(req: RpcRequest): Promise<void> {
     const name = String(params?.name ?? "");
     const args = (params?.arguments as Record<string, unknown> | undefined) ?? {};
     try {
-      if (name === "list_harnesses") {
-        const data = listHarnesses();
-        reply(id, { content: [{ type: "text", text: JSON.stringify(data, null, 2) }] });
+      const result = await callMcpTool(name, args);
+      if (!result.ok) {
+        fail(id, result.code, result.message);
         return;
       }
-      if (name === "run_harness") {
-        const harness = String(args.name ?? "");
-        const prompt = String(args.prompt ?? "");
-        if (!isHarnessName(harness)) {
-          fail(id, -32602, "name must be qoder|kimi|pi|grok");
-          return;
-        }
-        if (!prompt) {
-          fail(id, -32602, "prompt is required");
-          return;
-        }
-        const evidence = await runHarness({
-          name: harness,
-          prompt,
-          model: args.model ? String(args.model) : undefined,
-          maxTurns: typeof args.max_turns === "number" ? args.max_turns : undefined,
-          timeoutMs: typeof args.timeout_ms === "number" ? args.timeout_ms : undefined,
-        });
-        reply(id, { content: [{ type: "text", text: JSON.stringify(evidence, null, 2) }] });
-        return;
-      }
-      fail(id, -32601, `unknown tool ${name}`);
+      reply(id, { content: [{ type: "text", text: JSON.stringify(result.data, null, 2) }] });
+      return;
     } catch (err) {
       const message = err instanceof Error ? err.message : String(err);
       fail(id, -32000, message);
