@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "harness-swarm": {
+      "command": "bash",
+      "args": ["./bin/harness-swarm-mcp"]
+    }
+  }
+}

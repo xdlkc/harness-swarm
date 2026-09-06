@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+set -euo pipefail
+ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+if [[ ! -f "$ROOT/dist/src/mcp.js" ]]; then
+  (cd "$ROOT" && npm run build)
+fi
+exec node "$ROOT/dist/src/mcp.js"

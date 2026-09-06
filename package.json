@@ -1,0 +1,24 @@
+{
+  "name": "harness-swarm",
+  "version": "0.1.0",
+  "description": "Codex plugin: dispatch qodercli, kimi, pi, and grok into isolated git worktrees",
+  "type": "module",
+  "bin": {
+    "harness-swarm": "./dist/src/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepare": "tsc",
+    "test": "npm run build && node --test dist/test/*.test.js",
+    "cli": "npm run build && node dist/src/cli.js",
+    "mcp": "npm run build && node dist/src/mcp.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^26.4.1",
+    "typescript": "^7.0.2"
+  }
+}
