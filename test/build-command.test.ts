@@ -1,5 +1,4 @@
 import assert from "node:assert/strict";
-import path from "node:path";
 import { describe, it } from "node:test";
 import { buildCommand } from "../src/build-command.js";
 import type { BuildCommandInput } from "../src/types.js";
@@ -11,14 +10,43 @@ function base(overrides: Partial<BuildCommandInput> & Pick<BuildCommandInput, "n
     worktreePath: "/repo/.harness-swarm/worktrees/r1",
     runDir: "/repo/.harness-swarm/runs/r1",
     runId: "r1",
-    maxTurns: 40,
     ...overrides,
   };
 }
 
 describe("buildCommand", () => {
+  for (const name of ["codex", "claude", "dsh", "opencode"] as const) {
+    it(`${name}: preserves a flag-like multiline prompt as one positional argument`, () => {
+      const promptText = '--help\nExplain "quoted text", $HOME and `commands` literally.';
+      const input = base({ name, executable: `/custom bin/${name}`, promptText, model: name === "dsh" ? undefined : "provider/model", maxTurns: name === "claude" ? 40 : undefined });
+      const built = buildCommand(input);
+      const expected: Record<typeof name, string[]> = {
+        codex: [input.executable, "exec", "--json", "--ephemeral",
+          "--dangerously-bypass-approvals-and-sandbox", "--cd", input.worktreePath,
+          "--model", "provider/model", "--", promptText],
+        claude: [input.executable, "-p", "--output-format", "json",
+          "--dangerously-skip-permissions", "--no-session-persistence",
+          "--model", "provider/model", "--max-turns", "40", "--", promptText],
+        dsh: [input.executable, "--profile", "headless", "--", "--", promptText],
+        opencode: [input.executable, "run", "--format", "json", "--auto", "--dir", input.worktreePath,
+          "--model", "provider/model", "--", promptText],
+      };
+      assert.deepEqual(built.argv, expected[name]);
+      assert.equal(built.cwd, input.worktreePath);
+      assert.ok(!built.argv.includes("--worktree"));
+
+    });
+
+    it(`${name}: omits optional model and turn flags when absent`, () => {
+      const built = buildCommand(base({ name, executable: name, maxTurns: undefined }));
+      assert.ok(!built.argv.includes("--model"));
+      assert.ok(!built.argv.includes("--max-turns"));
+      assert.ok(!built.notes.some((note) => note.includes("is ignored")));
+    });
+  }
+
   it("qoder: -w, -f json, --yolo, --max-turns; not --worktree", () => {
-    const built = buildCommand(base({ name: "qoder", executable: "qodercli" }));
+    const built = buildCommand(base({ name: "qoder", executable: "qodercli", maxTurns: 40 }));
     const argv = built.argv;
     assert.equal(argv[0], "qodercli");
     assert.ok(argv.includes("-w"));
@@ -46,10 +74,7 @@ describe("buildCommand", () => {
     assert.ok(!argv.includes("--auto"));
     assert.ok(!argv.includes("--plan"));
     assert.equal(built.cwd, "/repo/.harness-swarm/worktrees/r1");
-    assert.equal(
-      built.env.KIMI_CODE_HOME,
-      path.join("/repo/.harness-swarm/runs/r1", "kimi-home"),
-    );
+    assert.equal(built.env.KIMI_CODE_HOME, undefined);
   });
 
   it("pi: --mode json, @brief, --approve", () => {

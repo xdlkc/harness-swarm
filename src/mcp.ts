@@ -28,7 +28,7 @@ function fail(id: number | string | undefined, code: number, message: string): v
 const TOOLS = [
   {
     name: "list_harnesses",
-    description: "Report qoder, kimi, pi, and grok install path and version if present on PATH.",
+    description: "Report supported harnesses and their install path and version if present on PATH.",
     inputSchema: { type: "object", properties: {}, additionalProperties: false },
   },
   {
@@ -124,5 +124,4 @@ async function drain(): Promise<void> {
     }
   }
 }
-
 

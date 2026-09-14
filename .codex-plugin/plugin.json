@@ -1,7 +1,7 @@
 {
   "name": "harness-swarm",
   "version": "0.1.0",
-  "description": "Dispatch qodercli, kimi, pi, and grok from Codex into isolated git worktrees.",
+  "description": "Dispatch qodercli, kimi, pi, grok, codex, claude, dsh, and opencode from Codex into isolated git worktrees.",
   "author": {
     "name": "xdlkc"
   },
@@ -11,7 +11,7 @@
   "mcpServers": "./mcp.json",
   "interface": {
     "displayName": "Harness Swarm",
-    "shortDescription": "Run qoder, kimi, pi, grok in worktrees",
+    "shortDescription": "Run eight coding harnesses in worktrees",
     "longDescription": "Codex plugin that lists installed coding harnesses and runs one headless job at a time in an independent git worktree. Returns evidence; never auto-merges.",
     "developerName": "xdlkc",
     "category": "Developer Tools",

@@ -1,5 +1,7 @@
 # Dispatch / adapter surface review
 
+Historical review of the original four-harness MVP. Current capabilities and verification are recorded in [design.md](design.md); the findings below are not the current release status.
+
 Review scope: `docs/design.md`, `src/build-command.ts`, `src/dispatch.ts`, `src/list-harnesses.ts`, `src/cli.ts`, `src/mcp.ts`, and `test/*.ts`, checked against the agreed harness-swarm contract.
 
 Verification performed: read sources and tests; `npm test` (7/7 pass); exercised shipped `buildCommand` for all four harnesses; ran shipped `listHarnesses()` against the live PATH (qoder 0.1.20, kimi 0.41.0, pi 0.84.1, grok 1.0.13).

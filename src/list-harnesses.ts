@@ -2,12 +2,17 @@ import { spawnSync } from "node:child_process";
 import { existsSync, statSync } from "node:fs";
 import path from "node:path";
 import { HARNESS_BINARIES, HARNESS_NAMES, type HarnessName, type HarnessStatus } from "./types.js";
+import { HARNESS_CAPABILITIES } from "./capabilities.js";
 
 const VERSION_ARGS: Record<HarnessName, string[]> = {
   qoder: ["-v"],
   kimi: ["-V"],
   pi: ["--version"],
   grok: ["--version"],
+  codex: ["--version"],
+  claude: ["--version"],
+  dsh: ["--version"],
+  opencode: ["--version"],
 };
 
 export function which(binary: string, envPath?: string): string | null {
@@ -50,7 +55,7 @@ export function listHarnesses(envPath?: string): HarnessStatus[] {
     const binary = HARNESS_BINARIES[name];
     const resolved = which(binary, envPath);
     if (!resolved) {
-      return { name, binary, installed: false, path: null, version: null };
+      return { name, binary, installed: false, path: null, version: null, capabilities: HARNESS_CAPABILITIES[name] };
     }
     const version = readVersion(resolved, name) || "unknown";
     return {
@@ -59,6 +64,7 @@ export function listHarnesses(envPath?: string): HarnessStatus[] {
       installed: true,
       path: resolved,
       version,
+      capabilities: HARNESS_CAPABILITIES[name],
     };
   });
 }

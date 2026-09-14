@@ -1,4 +1,4 @@
-export const HARNESS_NAMES = ["qoder", "kimi", "pi", "grok"] as const;
+export const HARNESS_NAMES = ["qoder", "kimi", "pi", "grok", "codex", "claude", "dsh", "opencode"] as const;
 
 export type HarnessName = (typeof HARNESS_NAMES)[number];
 
@@ -7,6 +7,10 @@ export const HARNESS_BINARIES: Record<HarnessName, string> = {
   kimi: "kimi",
   pi: "pi",
   grok: "grok",
+  codex: "codex",
+  claude: "claude",
+  dsh: "dsh",
+  opencode: "opencode",
 };
 
 export interface BuildCommandInput {
@@ -19,6 +23,12 @@ export interface BuildCommandInput {
   executable: string;
   model?: string;
   maxTurns?: number;
+  effort?: string;
+  goal?: boolean;
+  tokenBudget?: number;
+  maxBudgetUsd?: number;
+  persistSession?: boolean;
+  nativeArgs?: string[];
 }
 
 export interface BuiltCommand {
@@ -34,6 +44,18 @@ export interface HarnessStatus {
   installed: boolean;
   path: string | null;
   version: string | null;
+  capabilities?: HarnessCapabilities;
+}
+
+export interface HarnessCapabilities {
+  model: boolean;
+  effort: boolean;
+  max_turns: boolean;
+  goal: boolean;
+  token_budget: "goal" | "task" | false;
+  max_budget_usd: boolean;
+  persist_session: boolean;
+  native_args: boolean;
 }
 
 export interface Evidence {
@@ -53,6 +75,7 @@ export interface Evidence {
   finished_at: string;
   argv: string[];
   notes: string[];
+  goal_status?: string;
 }
 
 export function isHarnessName(value: string): value is HarnessName {
