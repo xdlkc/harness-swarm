@@ -4,7 +4,7 @@
   "description": "Codex plugin: dispatch qodercli, kimi, pi, grok, codex, claude, dsh, and opencode into isolated git worktrees",
   "type": "module",
   "bin": {
-    "harness-swarm": "./dist/src/cli.js"
+    "hs": "./dist/src/cli.js"
   },
   "scripts": {
     "build": "tsc",

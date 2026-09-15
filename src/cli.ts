@@ -4,7 +4,7 @@ import { listHarnesses } from "./list-harnesses.js";
 import { runHarness } from "./dispatch.js";
 import { parseRunFlags } from "./options.js";
 
-const HELP = `Usage: harness-swarm [list | run [options]]
+const HELP = `Usage: hs [list | run [options]]
 
 Commands:
   list                     List installed harnesses and versions (default)

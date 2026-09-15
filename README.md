@@ -28,31 +28,35 @@
 
 ## 使用
 
+独立 CLI 命令名为 `hs`。在项目目录安装并链接后使用：
+
 ```bash
 npm install
-npm test
-node dist/src/cli.js --help
-node dist/src/cli.js list
+npm link
+hs --help
+hs list
 ```
+
+也可以在项目目录通过 `npm run cli -- <参数>` 调用。
 
 `list` / MCP `list_harnesses` 返回安装位置、版本和 `capabilities`。这不是登录或模型调用可用性检查；各 CLI 需要已有的配置和认证。
 
 ```bash
 # Claude：Goal、推理强度、美元上限、会话持久化
-node dist/src/cli.js run --name claude --repo /absolute/path/to/project \
+hs run --name claude --repo /absolute/path/to/project \
   --goal --prompt "修复指定测试，直到测试全部通过" \
   --effort high --max-budget-usd 2 --persist-session
 
 # Codex：原生 App Server Goal 协议与 token 预算
-node dist/src/cli.js run --name codex --repo /absolute/path/to/project \
+hs run --name codex --repo /absolute/path/to/project \
   --goal --prompt "修复指定测试，直到测试全部通过" --token-budget 20000
 
 # OpenCode：任务入口的原生 agent 参数
-node dist/src/cli.js run --name opencode --repo /absolute/path/to/project \
+hs run --name opencode --repo /absolute/path/to/project \
   --prompt "完成指定任务" -- --agent build
 
 # DSH：在固定 headless profile 上叠加配置 patch
-node dist/src/cli.js run --name dsh --repo /absolute/path/to/project \
+hs run --name dsh --repo /absolute/path/to/project \
   --prompt "完成指定任务" \
   --native-args '["--patch","/absolute/path/to/overlay.yml"]'
 ```
