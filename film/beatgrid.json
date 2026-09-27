@@ -1,0 +1,5317 @@
+{
+ "fps": 30,
+ "sr": 44100,
+ "width": 1920,
+ "height": 1080,
+ "total_frames": 8388,
+ "segments": [
+  {
+   "id": 0,
+   "kind": "open",
+   "vol": 0,
+   "shot": null,
+   "start": 0,
+   "fpb": 30,
+   "nbeats": 8,
+   "end": 240,
+   "impact": false,
+   "seal": "序",
+   "style": "jin",
+   "year_to": -7000,
+   "year_from": -7000,
+   "pt": 0.0
+  },
+  {
+   "id": 1,
+   "kind": "card",
+   "vol": 0,
+   "shot": null,
+   "start": 240,
+   "fpb": 30,
+   "nbeats": 4,
+   "end": 360,
+   "impact": true,
+   "seal": "卷一",
+   "style": "xuan",
+   "year_to": -7000,
+   "year_from": -7000,
+   "pt": 0.0
+  },
+  {
+   "id": 2,
+   "kind": "shot",
+   "vol": 0,
+   "shot": 0,
+   "start": 360,
+   "fpb": 30,
+   "nbeats": 8,
+   "end": 600,
+   "impact": false,
+   "seal": "卷一",
+   "style": "jin",
+   "year_to": -7000,
+   "pt": 0.0,
+   "year_from": -7000
+  },
+  {
+   "id": 3,
+   "kind": "shot",
+   "vol": 0,
+   "shot": 1,
+   "start": 600,
+   "fpb": 30,
+   "nbeats": 8,
+   "end": 840,
+   "impact": false,
+   "seal": "卷一",
+   "style": "xuan",
+   "year_to": -5000,
+   "pt": 0.3333333333333333,
+   "year_from": -7000
+  },
+  {
+   "id": 4,
+   "kind": "shot",
+   "vol": 0,
+   "shot": 2,
+   "start": 840,
+   "fpb": 30,
+   "nbeats": 8,
+   "end": 1080,
+   "impact": false,
+   "seal": "卷一",
+   "style": "jin",
+   "year_to": -4500,
+   "pt": 0.6666666666666666,
+   "year_from": -5000
+  },
+  {
+   "id": 5,
+   "kind": "shot",
+   "vol": 0,
+   "shot": 3,
+   "start": 1080,
+   "fpb": 30,
+   "nbeats": 8,
+   "end": 1320,
+   "impact": false,
+   "seal": "卷一",
+   "style": "xuan",
+   "year_to": -3000,
+   "pt": 1.0,
+   "year_from": -4500
+  },
+  {
+   "id": 6,
+   "kind": "card",
+   "vol": 1,
+   "shot": null,
+   "start": 1320,
+   "fpb": 28,
+   "nbeats": 4,
+   "end": 1432,
+   "impact": true,
+   "seal": "卷二",
+   "style": "jin",
+   "year_to": -2070,
+   "year_from": -3000,
+   "pt": 0.0
+  },
+  {
+   "id": 7,
+   "kind": "shot",
+   "vol": 1,
+   "shot": 0,
+   "start": 1432,
+   "fpb": 28,
+   "nbeats": 8,
+   "end": 1656,
+   "impact": false,
+   "seal": "卷二",
+   "style": "xuan",
+   "year_to": -1750,
+   "pt": 0.0,
+   "year_from": -2070
+  },
+  {
+   "id": 8,
+   "kind": "shot",
+   "vol": 1,
+   "shot": 1,
+   "start": 1656,
+   "fpb": 28,
+   "nbeats": 8,
+   "end": 1880,
+   "impact": false,
+   "seal": "卷二",
+   "style": "jin",
+   "year_to": -1250,
+   "pt": 0.19999999999999998,
+   "year_from": -1750
+  },
+  {
+   "id": 9,
+   "kind": "shot",
+   "vol": 1,
+   "shot": 2,
+   "start": 1880,
+   "fpb": 28,
+   "nbeats": 8,
+   "end": 2104,
+   "impact": false,
+   "seal": "卷二",
+   "style": "xuan",
+   "year_to": -1200,
+   "pt": 0.39999999999999997,
+   "year_from": -1250
+  },
+  {
+   "id": 10,
+   "kind": "shot",
+   "vol": 1,
+   "shot": 3,
+   "start": 2104,
+   "fpb": 28,
+   "nbeats": 8,
+   "end": 2328,
+   "impact": false,
+   "seal": "卷二",
+   "style": "jin",
+   "year_to": -1046,
+   "pt": 0.6,
+   "year_from": -1200
+  },
+  {
+   "id": 11,
+   "kind": "card",
+   "vol": 2,
+   "shot": null,
+   "start": 2328,
+   "fpb": 26,
+   "nbeats": 4,
+   "end": 2432,
+   "impact": true,
+   "seal": "卷三",
+   "style": "xuan",
+   "year_to": -770,
+   "year_from": -1046,
+   "pt": 0.6
+  },
+  {
+   "id": 12,
+   "kind": "shot",
+   "vol": 2,
+   "shot": 0,
+   "start": 2432,
+   "fpb": 26,
+   "nbeats": 8,
+   "end": 2640,
+   "impact": false,
+   "seal": "卷三",
+   "style": "jin",
+   "year_to": -770,
+   "pt": 0.6,
+   "year_from": -770
+  },
+  {
+   "id": 13,
+   "kind": "shot",
+   "vol": 2,
+   "shot": 1,
+   "start": 2640,
+   "fpb": 26,
+   "nbeats": 8,
+   "end": 2848,
+   "impact": false,
+   "seal": "卷三",
+   "style": "xuan",
+   "year_to": -500,
+   "pt": 0.7333333333333333,
+   "year_from": -770
+  },
+  {
+   "id": 14,
+   "kind": "shot",
+   "vol": 2,
+   "shot": 2,
+   "start": 2848,
+   "fpb": 26,
+   "nbeats": 8,
+   "end": 3056,
+   "impact": false,
+   "seal": "卷三",
+   "style": "jin",
+   "year_to": -433,
+   "pt": 0.8666666666666667,
+   "year_from": -500
+  },
+  {
+   "id": 15,
+   "kind": "shot",
+   "vol": 2,
+   "shot": 3,
+   "start": 3056,
+   "fpb": 26,
+   "nbeats": 8,
+   "end": 3264,
+   "impact": false,
+   "seal": "卷三",
+   "style": "xuan",
+   "year_to": -256,
+   "pt": 1.0,
+   "year_from": -433
+  },
+  {
+   "id": 16,
+   "kind": "card",
+   "vol": 3,
+   "shot": null,
+   "start": 3264,
+   "fpb": 24,
+   "nbeats": 4,
+   "end": 3360,
+   "impact": true,
+   "seal": "卷四",
+   "style": "jin",
+   "year_to": -221,
+   "year_from": -256,
+   "pt": 0.0
+  },
+  {
+   "id": 17,
+   "kind": "shot",
+   "vol": 3,
+   "shot": 0,
+   "start": 3360,
+   "fpb": 24,
+   "nbeats": 8,
+   "end": 3552,
+   "impact": false,
+   "seal": "卷四",
+   "style": "xuan",
+   "year_to": -221,
+   "pt": 0.0,
+   "year_from": -221
+  },
+  {
+   "id": 18,
+   "kind": "shot",
+   "vol": 3,
+   "shot": 1,
+   "start": 3552,
+   "fpb": 24,
+   "nbeats": 8,
+   "end": 3744,
+   "impact": false,
+   "seal": "卷四",
+   "style": "jin",
+   "year_to": -214,
+   "pt": 0.175,
+   "year_from": -221
+  },
+  {
+   "id": 19,
+   "kind": "shot",
+   "vol": 3,
+   "shot": 2,
+   "start": 3744,
+   "fpb": 24,
+   "nbeats": 8,
+   "end": 3936,
+   "impact": false,
+   "seal": "卷四",
+   "style": "xuan",
+   "year_to": -138,
+   "pt": 0.35,
+   "year_from": -214
+  },
+  {
+   "id": 20,
+   "kind": "shot",
+   "vol": 3,
+   "shot": 3,
+   "start": 3936,
+   "fpb": 24,
+   "nbeats": 8,
+   "end": 4128,
+   "impact": false,
+   "seal": "卷四",
+   "style": "jin",
+   "year_to": 105,
+   "pt": 0.5249999999999999,
+   "year_from": -138
+  },
+  {
+   "id": 21,
+   "kind": "shot",
+   "vol": 3,
+   "shot": 4,
+   "start": 4128,
+   "fpb": 24,
+   "nbeats": 8,
+   "end": 4320,
+   "impact": false,
+   "seal": "卷四",
+   "style": "xuan",
+   "year_to": 132,
+   "pt": 0.7,
+   "year_from": 105
+  },
+  {
+   "id": 22,
+   "kind": "card",
+   "vol": 4,
+   "shot": null,
+   "start": 4320,
+   "fpb": 22,
+   "nbeats": 4,
+   "end": 4408,
+   "impact": true,
+   "seal": "卷五",
+   "style": "jin",
+   "year_to": 220,
+   "year_from": 132,
+   "pt": 0.7
+  },
+  {
+   "id": 23,
+   "kind": "shot",
+   "vol": 4,
+   "shot": 0,
+   "start": 4408,
+   "fpb": 22,
+   "nbeats": 8,
+   "end": 4584,
+   "impact": false,
+   "seal": "卷五",
+   "style": "xuan",
+   "year_to": 220,
+   "pt": 0.7,
+   "year_from": 220
+  },
+  {
+   "id": 24,
+   "kind": "shot",
+   "vol": 4,
+   "shot": 1,
+   "start": 4584,
+   "fpb": 22,
+   "nbeats": 8,
+   "end": 4760,
+   "impact": false,
+   "seal": "卷五",
+   "style": "jin",
+   "year_to": 353,
+   "pt": 0.7999999999999999,
+   "year_from": 220
+  },
+  {
+   "id": 25,
+   "kind": "shot",
+   "vol": 4,
+   "shot": 2,
+   "start": 4760,
+   "fpb": 22,
+   "nbeats": 8,
+   "end": 4936,
+   "impact": false,
+   "seal": "卷五",
+   "style": "xuan",
+   "year_to": 366,
+   "pt": 0.8999999999999999,
+   "year_from": 353
+  },
+  {
+   "id": 26,
+   "kind": "shot",
+   "vol": 4,
+   "shot": 3,
+   "start": 4936,
+   "fpb": 22,
+   "nbeats": 8,
+   "end": 5112,
+   "impact": false,
+   "seal": "卷五",
+   "style": "jin",
+   "year_to": 462,
+   "pt": 1.0,
+   "year_from": 366
+  },
+  {
+   "id": 27,
+   "kind": "card",
+   "vol": 5,
+   "shot": null,
+   "start": 5112,
+   "fpb": 20,
+   "nbeats": 4,
+   "end": 5192,
+   "impact": true,
+   "seal": "卷六",
+   "style": "xuan",
+   "year_to": 581,
+   "year_from": 462,
+   "pt": 0.0
+  },
+  {
+   "id": 28,
+   "kind": "shot",
+   "vol": 5,
+   "shot": 0,
+   "start": 5192,
+   "fpb": 20,
+   "nbeats": 8,
+   "end": 5352,
+   "impact": false,
+   "seal": "卷六",
+   "style": "jin",
+   "year_to": 595,
+   "pt": 0.0,
+   "year_from": 581
+  },
+  {
+   "id": 29,
+   "kind": "shot",
+   "vol": 5,
+   "shot": 1,
+   "start": 5352,
+   "fpb": 20,
+   "nbeats": 8,
+   "end": 5512,
+   "impact": false,
+   "seal": "卷六",
+   "style": "xuan",
+   "year_to": 605,
+   "pt": 0.25,
+   "year_from": 595
+  },
+  {
+   "id": 30,
+   "kind": "shot",
+   "vol": 5,
+   "shot": 2,
+   "start": 5512,
+   "fpb": 20,
+   "nbeats": 8,
+   "end": 5672,
+   "impact": false,
+   "seal": "卷六",
+   "style": "jin",
+   "year_to": 640,
+   "pt": 0.5,
+   "year_from": 605
+  },
+  {
+   "id": 31,
+   "kind": "shot",
+   "vol": 5,
+   "shot": 3,
+   "start": 5672,
+   "fpb": 20,
+   "nbeats": 8,
+   "end": 5832,
+   "impact": false,
+   "seal": "卷六",
+   "style": "xuan",
+   "year_to": 713,
+   "pt": 0.75,
+   "year_from": 640
+  },
+  {
+   "id": 32,
+   "kind": "shot",
+   "vol": 5,
+   "shot": 4,
+   "start": 5832,
+   "fpb": 20,
+   "nbeats": 8,
+   "end": 5992,
+   "impact": false,
+   "seal": "卷六",
+   "style": "jin",
+   "year_to": 868,
+   "pt": 1.0,
+   "year_from": 713
+  },
+  {
+   "id": 33,
+   "kind": "card",
+   "vol": 6,
+   "shot": null,
+   "start": 5992,
+   "fpb": 18,
+   "nbeats": 4,
+   "end": 6064,
+   "impact": true,
+   "seal": "卷七",
+   "style": "xuan",
+   "year_to": 960,
+   "year_from": 868,
+   "pt": 0.0
+  },
+  {
+   "id": 34,
+   "kind": "shot",
+   "vol": 6,
+   "shot": 0,
+   "start": 6064,
+   "fpb": 18,
+   "nbeats": 8,
+   "end": 6208,
+   "impact": false,
+   "seal": "卷七",
+   "style": "jin",
+   "year_to": 1045,
+   "pt": 0.0,
+   "year_from": 960
+  },
+  {
+   "id": 35,
+   "kind": "shot",
+   "vol": 6,
+   "shot": 1,
+   "start": 6208,
+   "fpb": 18,
+   "nbeats": 8,
+   "end": 6352,
+   "impact": false,
+   "seal": "卷七",
+   "style": "xuan",
+   "year_to": 1088,
+   "pt": 0.25,
+   "year_from": 1045
+  },
+  {
+   "id": 36,
+   "kind": "shot",
+   "vol": 6,
+   "shot": 2,
+   "start": 6352,
+   "fpb": 18,
+   "nbeats": 8,
+   "end": 6496,
+   "impact": false,
+   "seal": "卷七",
+   "style": "jin",
+   "year_to": 1100,
+   "pt": 0.5,
+   "year_from": 1088
+  },
+  {
+   "id": 37,
+   "kind": "shot",
+   "vol": 6,
+   "shot": 3,
+   "start": 6496,
+   "fpb": 18,
+   "nbeats": 8,
+   "end": 6640,
+   "impact": false,
+   "seal": "卷七",
+   "style": "xuan",
+   "year_to": 1138,
+   "pt": 0.75,
+   "year_from": 1100
+  },
+  {
+   "id": 38,
+   "kind": "shot",
+   "vol": 6,
+   "shot": 4,
+   "start": 6640,
+   "fpb": 18,
+   "nbeats": 8,
+   "end": 6784,
+   "impact": false,
+   "seal": "卷七",
+   "style": "jin",
+   "year_to": 1281,
+   "pt": 1.0,
+   "year_from": 1138
+  },
+  {
+   "id": 39,
+   "kind": "card",
+   "vol": 7,
+   "shot": null,
+   "start": 6784,
+   "fpb": 16,
+   "nbeats": 4,
+   "end": 6848,
+   "impact": true,
+   "seal": "卷八",
+   "style": "xuan",
+   "year_to": 1368,
+   "year_from": 1281,
+   "pt": 0.0
+  },
+  {
+   "id": 40,
+   "kind": "shot",
+   "vol": 7,
+   "shot": 0,
+   "start": 6848,
+   "fpb": 16,
+   "nbeats": 8,
+   "end": 6976,
+   "impact": false,
+   "seal": "卷八",
+   "style": "jin",
+   "year_to": 1405,
+   "pt": 0.0,
+   "year_from": 1368
+  },
+  {
+   "id": 41,
+   "kind": "shot",
+   "vol": 7,
+   "shot": 1,
+   "start": 6976,
+   "fpb": 16,
+   "nbeats": 8,
+   "end": 7104,
+   "impact": false,
+   "seal": "卷八",
+   "style": "xuan",
+   "year_to": 1420,
+   "pt": 0.125,
+   "year_from": 1405
+  },
+  {
+   "id": 42,
+   "kind": "shot",
+   "vol": 7,
+   "shot": 2,
+   "start": 7104,
+   "fpb": 16,
+   "nbeats": 8,
+   "end": 7232,
+   "impact": false,
+   "seal": "卷八",
+   "style": "jin",
+   "year_to": 1578,
+   "pt": 0.25,
+   "year_from": 1420
+  },
+  {
+   "id": 43,
+   "kind": "shot",
+   "vol": 7,
+   "shot": 3,
+   "start": 7232,
+   "fpb": 16,
+   "nbeats": 8,
+   "end": 7360,
+   "impact": false,
+   "seal": "卷八",
+   "style": "xuan",
+   "year_to": 1637,
+   "pt": 0.375,
+   "year_from": 1578
+  },
+  {
+   "id": 44,
+   "kind": "shot",
+   "vol": 7,
+   "shot": 4,
+   "start": 7360,
+   "fpb": 16,
+   "nbeats": 8,
+   "end": 7488,
+   "impact": false,
+   "seal": "卷八",
+   "style": "jin",
+   "year_to": 1782,
+   "pt": 0.5,
+   "year_from": 1637
+  },
+  {
+   "id": 45,
+   "kind": "card",
+   "vol": 8,
+   "shot": null,
+   "start": 7488,
+   "fpb": 15,
+   "nbeats": 4,
+   "end": 7548,
+   "impact": true,
+   "seal": "卷九",
+   "style": "xuan",
+   "year_to": 1840,
+   "year_from": 1782,
+   "pt": 0.5
+  },
+  {
+   "id": 46,
+   "kind": "shot",
+   "vol": 8,
+   "shot": 0,
+   "start": 7548,
+   "fpb": 15,
+   "nbeats": 8,
+   "end": 7668,
+   "impact": false,
+   "seal": "卷九",
+   "style": "jin",
+   "year_to": 1840,
+   "pt": 0.5,
+   "year_from": 1840
+  },
+  {
+   "id": 47,
+   "kind": "shot",
+   "vol": 8,
+   "shot": 1,
+   "start": 7668,
+   "fpb": 15,
+   "nbeats": 8,
+   "end": 7788,
+   "impact": false,
+   "seal": "卷九",
+   "style": "xuan",
+   "year_to": 1911,
+   "pt": 0.625,
+   "year_from": 1840
+  },
+  {
+   "id": 48,
+   "kind": "shot",
+   "vol": 8,
+   "shot": 2,
+   "start": 7788,
+   "fpb": 15,
+   "nbeats": 8,
+   "end": 7908,
+   "impact": false,
+   "seal": "卷九",
+   "style": "jin",
+   "year_to": 1949,
+   "pt": 0.75,
+   "year_from": 1911
+  },
+  {
+   "id": 49,
+   "kind": "shot",
+   "vol": 8,
+   "shot": 3,
+   "start": 7908,
+   "fpb": 15,
+   "nbeats": 8,
+   "end": 8028,
+   "impact": false,
+   "seal": "卷九",
+   "style": "xuan",
+   "year_to": 1978,
+   "pt": 0.875,
+   "year_from": 1949
+  },
+  {
+   "id": 50,
+   "kind": "shot",
+   "vol": 8,
+   "shot": 4,
+   "start": 8028,
+   "fpb": 15,
+   "nbeats": 8,
+   "end": 8148,
+   "impact": false,
+   "seal": "卷九",
+   "style": "jin",
+   "year_to": 2003,
+   "pt": 1.0,
+   "year_from": 1978
+  },
+  {
+   "id": 51,
+   "kind": "end",
+   "vol": 8,
+   "shot": null,
+   "start": 8148,
+   "fpb": 15,
+   "nbeats": 12,
+   "end": 8328,
+   "impact": true,
+   "seal": "终",
+   "style": "xuan",
+   "year_to": 2026,
+   "year_from": 2003,
+   "pt": 1.0
+  }
+ ],
+ "beats": [
+  {
+   "i": 0,
+   "frame": 0,
+   "t": 0.0,
+   "sample": 0,
+   "bpm": 60.0,
+   "seg": 0,
+   "beat": 0,
+   "bar_beat": 0,
+   "events": [
+    "cut"
+   ]
+  },
+  {
+   "i": 1,
+   "frame": 30,
+   "t": 1.0,
+   "sample": 44100,
+   "bpm": 60.0,
+   "seg": 0,
+   "beat": 1,
+   "bar_beat": 1,
+   "events": []
+  },
+  {
+   "i": 2,
+   "frame": 60,
+   "t": 2.0,
+   "sample": 88200,
+   "bpm": 60.0,
+   "seg": 0,
+   "beat": 2,
+   "bar_beat": 2,
+   "events": []
+  },
+  {
+   "i": 3,
+   "frame": 90,
+   "t": 3.0,
+   "sample": 132300,
+   "bpm": 60.0,
+   "seg": 0,
+   "beat": 3,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 4,
+   "frame": 120,
+   "t": 4.0,
+   "sample": 176400,
+   "bpm": 60.0,
+   "seg": 0,
+   "beat": 4,
+   "bar_beat": 0,
+   "events": []
+  },
+  {
+   "i": 5,
+   "frame": 150,
+   "t": 5.0,
+   "sample": 220500,
+   "bpm": 60.0,
+   "seg": 0,
+   "beat": 5,
+   "bar_beat": 1,
+   "events": []
+  },
+  {
+   "i": 6,
+   "frame": 180,
+   "t": 6.0,
+   "sample": 264600,
+   "bpm": 60.0,
+   "seg": 0,
+   "beat": 6,
+   "bar_beat": 2,
+   "events": []
+  },
+  {
+   "i": 7,
+   "frame": 210,
+   "t": 7.0,
+   "sample": 308700,
+   "bpm": 60.0,
+   "seg": 0,
+   "beat": 7,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 8,
+   "frame": 240,
+   "t": 8.0,
+   "sample": 352800,
+   "bpm": 60.0,
+   "seg": 1,
+   "beat": 0,
+   "bar_beat": 0,
+   "events": [
+    "impact"
+   ]
+  },
+  {
+   "i": 9,
+   "frame": 270,
+   "t": 9.0,
+   "sample": 396900,
+   "bpm": 60.0,
+   "seg": 1,
+   "beat": 1,
+   "bar_beat": 1,
+   "events": []
+  },
+  {
+   "i": 10,
+   "frame": 300,
+   "t": 10.0,
+   "sample": 441000,
+   "bpm": 60.0,
+   "seg": 1,
+   "beat": 2,
+   "bar_beat": 2,
+   "events": []
+  },
+  {
+   "i": 11,
+   "frame": 330,
+   "t": 11.0,
+   "sample": 485100,
+   "bpm": 60.0,
+   "seg": 1,
+   "beat": 3,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 12,
+   "frame": 360,
+   "t": 12.0,
+   "sample": 529200,
+   "bpm": 60.0,
+   "seg": 2,
+   "beat": 0,
+   "bar_beat": 0,
+   "events": [
+    "cut"
+   ]
+  },
+  {
+   "i": 13,
+   "frame": 390,
+   "t": 13.0,
+   "sample": 573300,
+   "bpm": 60.0,
+   "seg": 2,
+   "beat": 1,
+   "bar_beat": 1,
+   "events": [
+    "词组:贾湖"
+   ]
+  },
+  {
+   "i": 14,
+   "frame": 420,
+   "t": 14.0,
+   "sample": 617400,
+   "bpm": 60.0,
+   "seg": 2,
+   "beat": 2,
+   "bar_beat": 2,
+   "events": [
+    "词组:骨笛"
+   ]
+  },
+  {
+   "i": 15,
+   "frame": 450,
+   "t": 15.0,
+   "sample": 661500,
+   "bpm": 60.0,
+   "seg": 2,
+   "beat": 3,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 16,
+   "frame": 480,
+   "t": 16.0,
+   "sample": 705600,
+   "bpm": 60.0,
+   "seg": 2,
+   "beat": 4,
+   "bar_beat": 0,
+   "events": []
+  },
+  {
+   "i": 17,
+   "frame": 510,
+   "t": 17.0,
+   "sample": 749700,
+   "bpm": 60.0,
+   "seg": 2,
+   "beat": 5,
+   "bar_beat": 1,
+   "events": []
+  },
+  {
+   "i": 18,
+   "frame": 540,
+   "t": 18.0,
+   "sample": 793800,
+   "bpm": 60.0,
+   "seg": 2,
+   "beat": 6,
+   "bar_beat": 2,
+   "events": []
+  },
+  {
+   "i": 19,
+   "frame": 570,
+   "t": 19.0,
+   "sample": 837900,
+   "bpm": 60.0,
+   "seg": 2,
+   "beat": 7,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 20,
+   "frame": 600,
+   "t": 20.0,
+   "sample": 882000,
+   "bpm": 60.0,
+   "seg": 3,
+   "beat": 0,
+   "bar_beat": 0,
+   "events": [
+    "cut"
+   ]
+  },
+  {
+   "i": 21,
+   "frame": 630,
+   "t": 21.0,
+   "sample": 926100,
+   "bpm": 60.0,
+   "seg": 3,
+   "beat": 1,
+   "bar_beat": 1,
+   "events": [
+    "词组:河姆渡"
+   ]
+  },
+  {
+   "i": 22,
+   "frame": 660,
+   "t": 22.0,
+   "sample": 970200,
+   "bpm": 60.0,
+   "seg": 3,
+   "beat": 2,
+   "bar_beat": 2,
+   "events": [
+    "词组:稻作"
+   ]
+  },
+  {
+   "i": 23,
+   "frame": 690,
+   "t": 23.0,
+   "sample": 1014300,
+   "bpm": 60.0,
+   "seg": 3,
+   "beat": 3,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 24,
+   "frame": 720,
+   "t": 24.0,
+   "sample": 1058400,
+   "bpm": 60.0,
+   "seg": 3,
+   "beat": 4,
+   "bar_beat": 0,
+   "events": []
+  },
+  {
+   "i": 25,
+   "frame": 750,
+   "t": 25.0,
+   "sample": 1102500,
+   "bpm": 60.0,
+   "seg": 3,
+   "beat": 5,
+   "bar_beat": 1,
+   "events": []
+  },
+  {
+   "i": 26,
+   "frame": 780,
+   "t": 26.0,
+   "sample": 1146600,
+   "bpm": 60.0,
+   "seg": 3,
+   "beat": 6,
+   "bar_beat": 2,
+   "events": []
+  },
+  {
+   "i": 27,
+   "frame": 810,
+   "t": 27.0,
+   "sample": 1190700,
+   "bpm": 60.0,
+   "seg": 3,
+   "beat": 7,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 28,
+   "frame": 840,
+   "t": 28.0,
+   "sample": 1234800,
+   "bpm": 60.0,
+   "seg": 4,
+   "beat": 0,
+   "bar_beat": 0,
+   "events": [
+    "cut"
+   ]
+  },
+  {
+   "i": 29,
+   "frame": 870,
+   "t": 29.0,
+   "sample": 1278900,
+   "bpm": 60.0,
+   "seg": 4,
+   "beat": 1,
+   "bar_beat": 1,
+   "events": [
+    "词组:仰韶"
+   ]
+  },
+  {
+   "i": 30,
+   "frame": 900,
+   "t": 30.0,
+   "sample": 1323000,
+   "bpm": 60.0,
+   "seg": 4,
+   "beat": 2,
+   "bar_beat": 2,
+   "events": [
+    "词组:彩陶"
+   ]
+  },
+  {
+   "i": 31,
+   "frame": 930,
+   "t": 31.0,
+   "sample": 1367100,
+   "bpm": 60.0,
+   "seg": 4,
+   "beat": 3,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 32,
+   "frame": 960,
+   "t": 32.0,
+   "sample": 1411200,
+   "bpm": 60.0,
+   "seg": 4,
+   "beat": 4,
+   "bar_beat": 0,
+   "events": []
+  },
+  {
+   "i": 33,
+   "frame": 990,
+   "t": 33.0,
+   "sample": 1455300,
+   "bpm": 60.0,
+   "seg": 4,
+   "beat": 5,
+   "bar_beat": 1,
+   "events": []
+  },
+  {
+   "i": 34,
+   "frame": 1020,
+   "t": 34.0,
+   "sample": 1499400,
+   "bpm": 60.0,
+   "seg": 4,
+   "beat": 6,
+   "bar_beat": 2,
+   "events": []
+  },
+  {
+   "i": 35,
+   "frame": 1050,
+   "t": 35.0,
+   "sample": 1543500,
+   "bpm": 60.0,
+   "seg": 4,
+   "beat": 7,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 36,
+   "frame": 1080,
+   "t": 36.0,
+   "sample": 1587600,
+   "bpm": 60.0,
+   "seg": 5,
+   "beat": 0,
+   "bar_beat": 0,
+   "events": [
+    "cut"
+   ]
+  },
+  {
+   "i": 37,
+   "frame": 1110,
+   "t": 37.0,
+   "sample": 1631700,
+   "bpm": 60.0,
+   "seg": 5,
+   "beat": 1,
+   "bar_beat": 1,
+   "events": [
+    "词组:良渚"
+   ]
+  },
+  {
+   "i": 38,
+   "frame": 1140,
+   "t": 38.0,
+   "sample": 1675800,
+   "bpm": 60.0,
+   "seg": 5,
+   "beat": 2,
+   "bar_beat": 2,
+   "events": [
+    "词组:玉琮"
+   ]
+  },
+  {
+   "i": 39,
+   "frame": 1170,
+   "t": 39.0,
+   "sample": 1719900,
+   "bpm": 60.0,
+   "seg": 5,
+   "beat": 3,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 40,
+   "frame": 1200,
+   "t": 40.0,
+   "sample": 1764000,
+   "bpm": 60.0,
+   "seg": 5,
+   "beat": 4,
+   "bar_beat": 0,
+   "events": []
+  },
+  {
+   "i": 41,
+   "frame": 1230,
+   "t": 41.0,
+   "sample": 1808100,
+   "bpm": 60.0,
+   "seg": 5,
+   "beat": 5,
+   "bar_beat": 1,
+   "events": []
+  },
+  {
+   "i": 42,
+   "frame": 1260,
+   "t": 42.0,
+   "sample": 1852200,
+   "bpm": 60.0,
+   "seg": 5,
+   "beat": 6,
+   "bar_beat": 2,
+   "events": []
+  },
+  {
+   "i": 43,
+   "frame": 1290,
+   "t": 43.0,
+   "sample": 1896300,
+   "bpm": 60.0,
+   "seg": 5,
+   "beat": 7,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 44,
+   "frame": 1320,
+   "t": 44.0,
+   "sample": 1940400,
+   "bpm": 64.286,
+   "seg": 6,
+   "beat": 0,
+   "bar_beat": 0,
+   "events": [
+    "impact"
+   ]
+  },
+  {
+   "i": 45,
+   "frame": 1348,
+   "t": 44.9333,
+   "sample": 1981560,
+   "bpm": 64.286,
+   "seg": 6,
+   "beat": 1,
+   "bar_beat": 1,
+   "events": []
+  },
+  {
+   "i": 46,
+   "frame": 1376,
+   "t": 45.8667,
+   "sample": 2022720,
+   "bpm": 64.286,
+   "seg": 6,
+   "beat": 2,
+   "bar_beat": 2,
+   "events": []
+  },
+  {
+   "i": 47,
+   "frame": 1404,
+   "t": 46.8,
+   "sample": 2063880,
+   "bpm": 64.286,
+   "seg": 6,
+   "beat": 3,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 48,
+   "frame": 1432,
+   "t": 47.7333,
+   "sample": 2105040,
+   "bpm": 64.286,
+   "seg": 7,
+   "beat": 0,
+   "bar_beat": 0,
+   "events": [
+    "cut"
+   ]
+  },
+  {
+   "i": 49,
+   "frame": 1460,
+   "t": 48.6667,
+   "sample": 2146200,
+   "bpm": 64.286,
+   "seg": 7,
+   "beat": 1,
+   "bar_beat": 1,
+   "events": [
+    "词组:二里头"
+   ]
+  },
+  {
+   "i": 50,
+   "frame": 1488,
+   "t": 49.6,
+   "sample": 2187360,
+   "bpm": 64.286,
+   "seg": 7,
+   "beat": 2,
+   "bar_beat": 2,
+   "events": [
+    "词组:青铜爵"
+   ]
+  },
+  {
+   "i": 51,
+   "frame": 1516,
+   "t": 50.5333,
+   "sample": 2228520,
+   "bpm": 64.286,
+   "seg": 7,
+   "beat": 3,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 52,
+   "frame": 1544,
+   "t": 51.4667,
+   "sample": 2269680,
+   "bpm": 64.286,
+   "seg": 7,
+   "beat": 4,
+   "bar_beat": 0,
+   "events": []
+  },
+  {
+   "i": 53,
+   "frame": 1572,
+   "t": 52.4,
+   "sample": 2310840,
+   "bpm": 64.286,
+   "seg": 7,
+   "beat": 5,
+   "bar_beat": 1,
+   "events": []
+  },
+  {
+   "i": 54,
+   "frame": 1600,
+   "t": 53.3333,
+   "sample": 2352000,
+   "bpm": 64.286,
+   "seg": 7,
+   "beat": 6,
+   "bar_beat": 2,
+   "events": []
+  },
+  {
+   "i": 55,
+   "frame": 1628,
+   "t": 54.2667,
+   "sample": 2393160,
+   "bpm": 64.286,
+   "seg": 7,
+   "beat": 7,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 56,
+   "frame": 1656,
+   "t": 55.2,
+   "sample": 2434320,
+   "bpm": 64.286,
+   "seg": 8,
+   "beat": 0,
+   "bar_beat": 0,
+   "events": [
+    "cut"
+   ]
+  },
+  {
+   "i": 57,
+   "frame": 1684,
+   "t": 56.1333,
+   "sample": 2475480,
+   "bpm": 64.286,
+   "seg": 8,
+   "beat": 1,
+   "bar_beat": 1,
+   "events": [
+    "词组:甲骨"
+   ]
+  },
+  {
+   "i": 58,
+   "frame": 1712,
+   "t": 57.0667,
+   "sample": 2516640,
+   "bpm": 64.286,
+   "seg": 8,
+   "beat": 2,
+   "bar_beat": 2,
+   "events": [
+    "词组:文字"
+   ]
+  },
+  {
+   "i": 59,
+   "frame": 1740,
+   "t": 58.0,
+   "sample": 2557800,
+   "bpm": 64.286,
+   "seg": 8,
+   "beat": 3,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 60,
+   "frame": 1768,
+   "t": 58.9333,
+   "sample": 2598960,
+   "bpm": 64.286,
+   "seg": 8,
+   "beat": 4,
+   "bar_beat": 0,
+   "events": []
+  },
+  {
+   "i": 61,
+   "frame": 1796,
+   "t": 59.8667,
+   "sample": 2640120,
+   "bpm": 64.286,
+   "seg": 8,
+   "beat": 5,
+   "bar_beat": 1,
+   "events": []
+  },
+  {
+   "i": 62,
+   "frame": 1824,
+   "t": 60.8,
+   "sample": 2681280,
+   "bpm": 64.286,
+   "seg": 8,
+   "beat": 6,
+   "bar_beat": 2,
+   "events": []
+  },
+  {
+   "i": 63,
+   "frame": 1852,
+   "t": 61.7333,
+   "sample": 2722440,
+   "bpm": 64.286,
+   "seg": 8,
+   "beat": 7,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 64,
+   "frame": 1880,
+   "t": 62.6667,
+   "sample": 2763600,
+   "bpm": 64.286,
+   "seg": 9,
+   "beat": 0,
+   "bar_beat": 0,
+   "events": [
+    "cut"
+   ]
+  },
+  {
+   "i": 65,
+   "frame": 1908,
+   "t": 63.6,
+   "sample": 2804760,
+   "bpm": 64.286,
+   "seg": 9,
+   "beat": 1,
+   "bar_beat": 1,
+   "events": [
+    "词组:后母戊"
+   ]
+  },
+  {
+   "i": 66,
+   "frame": 1936,
+   "t": 64.5333,
+   "sample": 2845920,
+   "bpm": 64.286,
+   "seg": 9,
+   "beat": 2,
+   "bar_beat": 2,
+   "events": [
+    "词组:鼎"
+   ]
+  },
+  {
+   "i": 67,
+   "frame": 1964,
+   "t": 65.4667,
+   "sample": 2887080,
+   "bpm": 64.286,
+   "seg": 9,
+   "beat": 3,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 68,
+   "frame": 1992,
+   "t": 66.4,
+   "sample": 2928240,
+   "bpm": 64.286,
+   "seg": 9,
+   "beat": 4,
+   "bar_beat": 0,
+   "events": []
+  },
+  {
+   "i": 69,
+   "frame": 2020,
+   "t": 67.3333,
+   "sample": 2969400,
+   "bpm": 64.286,
+   "seg": 9,
+   "beat": 5,
+   "bar_beat": 1,
+   "events": []
+  },
+  {
+   "i": 70,
+   "frame": 2048,
+   "t": 68.2667,
+   "sample": 3010560,
+   "bpm": 64.286,
+   "seg": 9,
+   "beat": 6,
+   "bar_beat": 2,
+   "events": []
+  },
+  {
+   "i": 71,
+   "frame": 2076,
+   "t": 69.2,
+   "sample": 3051720,
+   "bpm": 64.286,
+   "seg": 9,
+   "beat": 7,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 72,
+   "frame": 2104,
+   "t": 70.1333,
+   "sample": 3092880,
+   "bpm": 64.286,
+   "seg": 10,
+   "beat": 0,
+   "bar_beat": 0,
+   "events": [
+    "cut"
+   ]
+  },
+  {
+   "i": 73,
+   "frame": 2132,
+   "t": 71.0667,
+   "sample": 3134040,
+   "bpm": 64.286,
+   "seg": 10,
+   "beat": 1,
+   "bar_beat": 1,
+   "events": [
+    "词组:制礼"
+   ]
+  },
+  {
+   "i": 74,
+   "frame": 2160,
+   "t": 72.0,
+   "sample": 3175200,
+   "bpm": 64.286,
+   "seg": 10,
+   "beat": 2,
+   "bar_beat": 2,
+   "events": [
+    "词组:作乐"
+   ]
+  },
+  {
+   "i": 75,
+   "frame": 2188,
+   "t": 72.9333,
+   "sample": 3216360,
+   "bpm": 64.286,
+   "seg": 10,
+   "beat": 3,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 76,
+   "frame": 2216,
+   "t": 73.8667,
+   "sample": 3257520,
+   "bpm": 64.286,
+   "seg": 10,
+   "beat": 4,
+   "bar_beat": 0,
+   "events": []
+  },
+  {
+   "i": 77,
+   "frame": 2244,
+   "t": 74.8,
+   "sample": 3298680,
+   "bpm": 64.286,
+   "seg": 10,
+   "beat": 5,
+   "bar_beat": 1,
+   "events": []
+  },
+  {
+   "i": 78,
+   "frame": 2272,
+   "t": 75.7333,
+   "sample": 3339840,
+   "bpm": 64.286,
+   "seg": 10,
+   "beat": 6,
+   "bar_beat": 2,
+   "events": []
+  },
+  {
+   "i": 79,
+   "frame": 2300,
+   "t": 76.6667,
+   "sample": 3381000,
+   "bpm": 64.286,
+   "seg": 10,
+   "beat": 7,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 80,
+   "frame": 2328,
+   "t": 77.6,
+   "sample": 3422160,
+   "bpm": 69.231,
+   "seg": 11,
+   "beat": 0,
+   "bar_beat": 0,
+   "events": [
+    "impact"
+   ]
+  },
+  {
+   "i": 81,
+   "frame": 2354,
+   "t": 78.4667,
+   "sample": 3460380,
+   "bpm": 69.231,
+   "seg": 11,
+   "beat": 1,
+   "bar_beat": 1,
+   "events": []
+  },
+  {
+   "i": 82,
+   "frame": 2380,
+   "t": 79.3333,
+   "sample": 3498600,
+   "bpm": 69.231,
+   "seg": 11,
+   "beat": 2,
+   "bar_beat": 2,
+   "events": []
+  },
+  {
+   "i": 83,
+   "frame": 2406,
+   "t": 80.2,
+   "sample": 3536820,
+   "bpm": 69.231,
+   "seg": 11,
+   "beat": 3,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 84,
+   "frame": 2432,
+   "t": 81.0667,
+   "sample": 3575040,
+   "bpm": 69.231,
+   "seg": 12,
+   "beat": 0,
+   "bar_beat": 0,
+   "events": [
+    "cut"
+   ]
+  },
+  {
+   "i": 85,
+   "frame": 2458,
+   "t": 81.9333,
+   "sample": 3613260,
+   "bpm": 69.231,
+   "seg": 12,
+   "beat": 1,
+   "bar_beat": 1,
+   "events": [
+    "词组:平王"
+   ]
+  },
+  {
+   "i": 86,
+   "frame": 2484,
+   "t": 82.8,
+   "sample": 3651480,
+   "bpm": 69.231,
+   "seg": 12,
+   "beat": 2,
+   "bar_beat": 2,
+   "events": [
+    "词组:东迁"
+   ]
+  },
+  {
+   "i": 87,
+   "frame": 2510,
+   "t": 83.6667,
+   "sample": 3689700,
+   "bpm": 69.231,
+   "seg": 12,
+   "beat": 3,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 88,
+   "frame": 2536,
+   "t": 84.5333,
+   "sample": 3727920,
+   "bpm": 69.231,
+   "seg": 12,
+   "beat": 4,
+   "bar_beat": 0,
+   "events": []
+  },
+  {
+   "i": 89,
+   "frame": 2562,
+   "t": 85.4,
+   "sample": 3766140,
+   "bpm": 69.231,
+   "seg": 12,
+   "beat": 5,
+   "bar_beat": 1,
+   "events": []
+  },
+  {
+   "i": 90,
+   "frame": 2588,
+   "t": 86.2667,
+   "sample": 3804360,
+   "bpm": 69.231,
+   "seg": 12,
+   "beat": 6,
+   "bar_beat": 2,
+   "events": []
+  },
+  {
+   "i": 91,
+   "frame": 2614,
+   "t": 87.1333,
+   "sample": 3842580,
+   "bpm": 69.231,
+   "seg": 12,
+   "beat": 7,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 92,
+   "frame": 2640,
+   "t": 88.0,
+   "sample": 3880800,
+   "bpm": 69.231,
+   "seg": 13,
+   "beat": 0,
+   "bar_beat": 0,
+   "events": [
+    "cut"
+   ]
+  },
+  {
+   "i": 93,
+   "frame": 2666,
+   "t": 88.8667,
+   "sample": 3919020,
+   "bpm": 69.231,
+   "seg": 13,
+   "beat": 1,
+   "bar_beat": 1,
+   "events": [
+    "词组:诸子"
+   ]
+  },
+  {
+   "i": 94,
+   "frame": 2692,
+   "t": 89.7333,
+   "sample": 3957240,
+   "bpm": 69.231,
+   "seg": 13,
+   "beat": 2,
+   "bar_beat": 2,
+   "events": [
+    "词组:百家"
+   ]
+  },
+  {
+   "i": 95,
+   "frame": 2718,
+   "t": 90.6,
+   "sample": 3995460,
+   "bpm": 69.231,
+   "seg": 13,
+   "beat": 3,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 96,
+   "frame": 2744,
+   "t": 91.4667,
+   "sample": 4033680,
+   "bpm": 69.231,
+   "seg": 13,
+   "beat": 4,
+   "bar_beat": 0,
+   "events": []
+  },
+  {
+   "i": 97,
+   "frame": 2770,
+   "t": 92.3333,
+   "sample": 4071900,
+   "bpm": 69.231,
+   "seg": 13,
+   "beat": 5,
+   "bar_beat": 1,
+   "events": []
+  },
+  {
+   "i": 98,
+   "frame": 2796,
+   "t": 93.2,
+   "sample": 4110120,
+   "bpm": 69.231,
+   "seg": 13,
+   "beat": 6,
+   "bar_beat": 2,
+   "events": []
+  },
+  {
+   "i": 99,
+   "frame": 2822,
+   "t": 94.0667,
+   "sample": 4148340,
+   "bpm": 69.231,
+   "seg": 13,
+   "beat": 7,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 100,
+   "frame": 2848,
+   "t": 94.9333,
+   "sample": 4186560,
+   "bpm": 69.231,
+   "seg": 14,
+   "beat": 0,
+   "bar_beat": 0,
+   "events": [
+    "cut"
+   ]
+  },
+  {
+   "i": 101,
+   "frame": 2874,
+   "t": 95.8,
+   "sample": 4224780,
+   "bpm": 69.231,
+   "seg": 14,
+   "beat": 1,
+   "bar_beat": 1,
+   "events": [
+    "词组:曾侯乙"
+   ]
+  },
+  {
+   "i": 102,
+   "frame": 2900,
+   "t": 96.6667,
+   "sample": 4263000,
+   "bpm": 69.231,
+   "seg": 14,
+   "beat": 2,
+   "bar_beat": 2,
+   "events": [
+    "词组:编钟"
+   ]
+  },
+  {
+   "i": 103,
+   "frame": 2926,
+   "t": 97.5333,
+   "sample": 4301220,
+   "bpm": 69.231,
+   "seg": 14,
+   "beat": 3,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 104,
+   "frame": 2952,
+   "t": 98.4,
+   "sample": 4339440,
+   "bpm": 69.231,
+   "seg": 14,
+   "beat": 4,
+   "bar_beat": 0,
+   "events": []
+  },
+  {
+   "i": 105,
+   "frame": 2978,
+   "t": 99.2667,
+   "sample": 4377660,
+   "bpm": 69.231,
+   "seg": 14,
+   "beat": 5,
+   "bar_beat": 1,
+   "events": []
+  },
+  {
+   "i": 106,
+   "frame": 3004,
+   "t": 100.1333,
+   "sample": 4415880,
+   "bpm": 69.231,
+   "seg": 14,
+   "beat": 6,
+   "bar_beat": 2,
+   "events": []
+  },
+  {
+   "i": 107,
+   "frame": 3030,
+   "t": 101.0,
+   "sample": 4454100,
+   "bpm": 69.231,
+   "seg": 14,
+   "beat": 7,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 108,
+   "frame": 3056,
+   "t": 101.8667,
+   "sample": 4492320,
+   "bpm": 69.231,
+   "seg": 15,
+   "beat": 0,
+   "bar_beat": 0,
+   "events": [
+    "cut"
+   ]
+  },
+  {
+   "i": 109,
+   "frame": 3082,
+   "t": 102.7333,
+   "sample": 4530540,
+   "bpm": 69.231,
+   "seg": 15,
+   "beat": 1,
+   "bar_beat": 1,
+   "events": [
+    "词组:都江堰"
+   ]
+  },
+  {
+   "i": 110,
+   "frame": 3108,
+   "t": 103.6,
+   "sample": 4568760,
+   "bpm": 69.231,
+   "seg": 15,
+   "beat": 2,
+   "bar_beat": 2,
+   "events": []
+  },
+  {
+   "i": 111,
+   "frame": 3134,
+   "t": 104.4667,
+   "sample": 4606980,
+   "bpm": 69.231,
+   "seg": 15,
+   "beat": 3,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 112,
+   "frame": 3160,
+   "t": 105.3333,
+   "sample": 4645200,
+   "bpm": 69.231,
+   "seg": 15,
+   "beat": 4,
+   "bar_beat": 0,
+   "events": []
+  },
+  {
+   "i": 113,
+   "frame": 3186,
+   "t": 106.2,
+   "sample": 4683420,
+   "bpm": 69.231,
+   "seg": 15,
+   "beat": 5,
+   "bar_beat": 1,
+   "events": []
+  },
+  {
+   "i": 114,
+   "frame": 3212,
+   "t": 107.0667,
+   "sample": 4721640,
+   "bpm": 69.231,
+   "seg": 15,
+   "beat": 6,
+   "bar_beat": 2,
+   "events": []
+  },
+  {
+   "i": 115,
+   "frame": 3238,
+   "t": 107.9333,
+   "sample": 4759860,
+   "bpm": 69.231,
+   "seg": 15,
+   "beat": 7,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 116,
+   "frame": 3264,
+   "t": 108.8,
+   "sample": 4798080,
+   "bpm": 75.0,
+   "seg": 16,
+   "beat": 0,
+   "bar_beat": 0,
+   "events": [
+    "impact"
+   ]
+  },
+  {
+   "i": 117,
+   "frame": 3288,
+   "t": 109.6,
+   "sample": 4833360,
+   "bpm": 75.0,
+   "seg": 16,
+   "beat": 1,
+   "bar_beat": 1,
+   "events": []
+  },
+  {
+   "i": 118,
+   "frame": 3312,
+   "t": 110.4,
+   "sample": 4868640,
+   "bpm": 75.0,
+   "seg": 16,
+   "beat": 2,
+   "bar_beat": 2,
+   "events": []
+  },
+  {
+   "i": 119,
+   "frame": 3336,
+   "t": 111.2,
+   "sample": 4903920,
+   "bpm": 75.0,
+   "seg": 16,
+   "beat": 3,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 120,
+   "frame": 3360,
+   "t": 112.0,
+   "sample": 4939200,
+   "bpm": 75.0,
+   "seg": 17,
+   "beat": 0,
+   "bar_beat": 0,
+   "events": [
+    "cut"
+   ]
+  },
+  {
+   "i": 121,
+   "frame": 3384,
+   "t": 112.8,
+   "sample": 4974480,
+   "bpm": 75.0,
+   "seg": 17,
+   "beat": 1,
+   "bar_beat": 1,
+   "events": [
+    "词组:书同文"
+   ]
+  },
+  {
+   "i": 122,
+   "frame": 3408,
+   "t": 113.6,
+   "sample": 5009760,
+   "bpm": 75.0,
+   "seg": 17,
+   "beat": 2,
+   "bar_beat": 2,
+   "events": [
+    "词组:车同轨"
+   ]
+  },
+  {
+   "i": 123,
+   "frame": 3432,
+   "t": 114.4,
+   "sample": 5045040,
+   "bpm": 75.0,
+   "seg": 17,
+   "beat": 3,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 124,
+   "frame": 3456,
+   "t": 115.2,
+   "sample": 5080320,
+   "bpm": 75.0,
+   "seg": 17,
+   "beat": 4,
+   "bar_beat": 0,
+   "events": []
+  },
+  {
+   "i": 125,
+   "frame": 3480,
+   "t": 116.0,
+   "sample": 5115600,
+   "bpm": 75.0,
+   "seg": 17,
+   "beat": 5,
+   "bar_beat": 1,
+   "events": []
+  },
+  {
+   "i": 126,
+   "frame": 3504,
+   "t": 116.8,
+   "sample": 5150880,
+   "bpm": 75.0,
+   "seg": 17,
+   "beat": 6,
+   "bar_beat": 2,
+   "events": []
+  },
+  {
+   "i": 127,
+   "frame": 3528,
+   "t": 117.6,
+   "sample": 5186160,
+   "bpm": 75.0,
+   "seg": 17,
+   "beat": 7,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 128,
+   "frame": 3552,
+   "t": 118.4,
+   "sample": 5221440,
+   "bpm": 75.0,
+   "seg": 18,
+   "beat": 0,
+   "bar_beat": 0,
+   "events": [
+    "cut"
+   ]
+  },
+  {
+   "i": 129,
+   "frame": 3576,
+   "t": 119.2,
+   "sample": 5256720,
+   "bpm": 75.0,
+   "seg": 18,
+   "beat": 1,
+   "bar_beat": 1,
+   "events": [
+    "词组:万里"
+   ]
+  },
+  {
+   "i": 130,
+   "frame": 3600,
+   "t": 120.0,
+   "sample": 5292000,
+   "bpm": 75.0,
+   "seg": 18,
+   "beat": 2,
+   "bar_beat": 2,
+   "events": [
+    "词组:长城"
+   ]
+  },
+  {
+   "i": 131,
+   "frame": 3624,
+   "t": 120.8,
+   "sample": 5327280,
+   "bpm": 75.0,
+   "seg": 18,
+   "beat": 3,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 132,
+   "frame": 3648,
+   "t": 121.6,
+   "sample": 5362560,
+   "bpm": 75.0,
+   "seg": 18,
+   "beat": 4,
+   "bar_beat": 0,
+   "events": []
+  },
+  {
+   "i": 133,
+   "frame": 3672,
+   "t": 122.4,
+   "sample": 5397840,
+   "bpm": 75.0,
+   "seg": 18,
+   "beat": 5,
+   "bar_beat": 1,
+   "events": []
+  },
+  {
+   "i": 134,
+   "frame": 3696,
+   "t": 123.2,
+   "sample": 5433120,
+   "bpm": 75.0,
+   "seg": 18,
+   "beat": 6,
+   "bar_beat": 2,
+   "events": []
+  },
+  {
+   "i": 135,
+   "frame": 3720,
+   "t": 124.0,
+   "sample": 5468400,
+   "bpm": 75.0,
+   "seg": 18,
+   "beat": 7,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 136,
+   "frame": 3744,
+   "t": 124.8,
+   "sample": 5503680,
+   "bpm": 75.0,
+   "seg": 19,
+   "beat": 0,
+   "bar_beat": 0,
+   "events": [
+    "cut"
+   ]
+  },
+  {
+   "i": 137,
+   "frame": 3768,
+   "t": 125.6,
+   "sample": 5538960,
+   "bpm": 75.0,
+   "seg": 19,
+   "beat": 1,
+   "bar_beat": 1,
+   "events": [
+    "词组:丝绸"
+   ]
+  },
+  {
+   "i": 138,
+   "frame": 3792,
+   "t": 126.4,
+   "sample": 5574240,
+   "bpm": 75.0,
+   "seg": 19,
+   "beat": 2,
+   "bar_beat": 2,
+   "events": [
+    "词组:之路"
+   ]
+  },
+  {
+   "i": 139,
+   "frame": 3816,
+   "t": 127.2,
+   "sample": 5609520,
+   "bpm": 75.0,
+   "seg": 19,
+   "beat": 3,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 140,
+   "frame": 3840,
+   "t": 128.0,
+   "sample": 5644800,
+   "bpm": 75.0,
+   "seg": 19,
+   "beat": 4,
+   "bar_beat": 0,
+   "events": []
+  },
+  {
+   "i": 141,
+   "frame": 3864,
+   "t": 128.8,
+   "sample": 5680080,
+   "bpm": 75.0,
+   "seg": 19,
+   "beat": 5,
+   "bar_beat": 1,
+   "events": []
+  },
+  {
+   "i": 142,
+   "frame": 3888,
+   "t": 129.6,
+   "sample": 5715360,
+   "bpm": 75.0,
+   "seg": 19,
+   "beat": 6,
+   "bar_beat": 2,
+   "events": []
+  },
+  {
+   "i": 143,
+   "frame": 3912,
+   "t": 130.4,
+   "sample": 5750640,
+   "bpm": 75.0,
+   "seg": 19,
+   "beat": 7,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 144,
+   "frame": 3936,
+   "t": 131.2,
+   "sample": 5785920,
+   "bpm": 75.0,
+   "seg": 20,
+   "beat": 0,
+   "bar_beat": 0,
+   "events": [
+    "cut"
+   ]
+  },
+  {
+   "i": 145,
+   "frame": 3960,
+   "t": 132.0,
+   "sample": 5821200,
+   "bpm": 75.0,
+   "seg": 20,
+   "beat": 1,
+   "bar_beat": 1,
+   "events": [
+    "词组:蔡伦"
+   ]
+  },
+  {
+   "i": 146,
+   "frame": 3984,
+   "t": 132.8,
+   "sample": 5856480,
+   "bpm": 75.0,
+   "seg": 20,
+   "beat": 2,
+   "bar_beat": 2,
+   "events": [
+    "词组:造纸"
+   ]
+  },
+  {
+   "i": 147,
+   "frame": 4008,
+   "t": 133.6,
+   "sample": 5891760,
+   "bpm": 75.0,
+   "seg": 20,
+   "beat": 3,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 148,
+   "frame": 4032,
+   "t": 134.4,
+   "sample": 5927040,
+   "bpm": 75.0,
+   "seg": 20,
+   "beat": 4,
+   "bar_beat": 0,
+   "events": []
+  },
+  {
+   "i": 149,
+   "frame": 4056,
+   "t": 135.2,
+   "sample": 5962320,
+   "bpm": 75.0,
+   "seg": 20,
+   "beat": 5,
+   "bar_beat": 1,
+   "events": []
+  },
+  {
+   "i": 150,
+   "frame": 4080,
+   "t": 136.0,
+   "sample": 5997600,
+   "bpm": 75.0,
+   "seg": 20,
+   "beat": 6,
+   "bar_beat": 2,
+   "events": []
+  },
+  {
+   "i": 151,
+   "frame": 4104,
+   "t": 136.8,
+   "sample": 6032880,
+   "bpm": 75.0,
+   "seg": 20,
+   "beat": 7,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 152,
+   "frame": 4128,
+   "t": 137.6,
+   "sample": 6068160,
+   "bpm": 75.0,
+   "seg": 21,
+   "beat": 0,
+   "bar_beat": 0,
+   "events": [
+    "cut"
+   ]
+  },
+  {
+   "i": 153,
+   "frame": 4152,
+   "t": 138.4,
+   "sample": 6103440,
+   "bpm": 75.0,
+   "seg": 21,
+   "beat": 1,
+   "bar_beat": 1,
+   "events": [
+    "词组:候风"
+   ]
+  },
+  {
+   "i": 154,
+   "frame": 4176,
+   "t": 139.2,
+   "sample": 6138720,
+   "bpm": 75.0,
+   "seg": 21,
+   "beat": 2,
+   "bar_beat": 2,
+   "events": [
+    "词组:地动仪"
+   ]
+  },
+  {
+   "i": 155,
+   "frame": 4200,
+   "t": 140.0,
+   "sample": 6174000,
+   "bpm": 75.0,
+   "seg": 21,
+   "beat": 3,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 156,
+   "frame": 4224,
+   "t": 140.8,
+   "sample": 6209280,
+   "bpm": 75.0,
+   "seg": 21,
+   "beat": 4,
+   "bar_beat": 0,
+   "events": []
+  },
+  {
+   "i": 157,
+   "frame": 4248,
+   "t": 141.6,
+   "sample": 6244560,
+   "bpm": 75.0,
+   "seg": 21,
+   "beat": 5,
+   "bar_beat": 1,
+   "events": []
+  },
+  {
+   "i": 158,
+   "frame": 4272,
+   "t": 142.4,
+   "sample": 6279840,
+   "bpm": 75.0,
+   "seg": 21,
+   "beat": 6,
+   "bar_beat": 2,
+   "events": []
+  },
+  {
+   "i": 159,
+   "frame": 4296,
+   "t": 143.2,
+   "sample": 6315120,
+   "bpm": 75.0,
+   "seg": 21,
+   "beat": 7,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 160,
+   "frame": 4320,
+   "t": 144.0,
+   "sample": 6350400,
+   "bpm": 81.818,
+   "seg": 22,
+   "beat": 0,
+   "bar_beat": 0,
+   "events": [
+    "impact"
+   ]
+  },
+  {
+   "i": 161,
+   "frame": 4342,
+   "t": 144.7333,
+   "sample": 6382740,
+   "bpm": 81.818,
+   "seg": 22,
+   "beat": 1,
+   "bar_beat": 1,
+   "events": []
+  },
+  {
+   "i": 162,
+   "frame": 4364,
+   "t": 145.4667,
+   "sample": 6415080,
+   "bpm": 81.818,
+   "seg": 22,
+   "beat": 2,
+   "bar_beat": 2,
+   "events": []
+  },
+  {
+   "i": 163,
+   "frame": 4386,
+   "t": 146.2,
+   "sample": 6447420,
+   "bpm": 81.818,
+   "seg": 22,
+   "beat": 3,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 164,
+   "frame": 4408,
+   "t": 146.9333,
+   "sample": 6479760,
+   "bpm": 81.818,
+   "seg": 23,
+   "beat": 0,
+   "bar_beat": 0,
+   "events": [
+    "cut"
+   ]
+  },
+  {
+   "i": 165,
+   "frame": 4430,
+   "t": 147.6667,
+   "sample": 6512100,
+   "bpm": 81.818,
+   "seg": 23,
+   "beat": 1,
+   "bar_beat": 1,
+   "events": [
+    "词组:三国"
+   ]
+  },
+  {
+   "i": 166,
+   "frame": 4452,
+   "t": 148.4,
+   "sample": 6544440,
+   "bpm": 81.818,
+   "seg": 23,
+   "beat": 2,
+   "bar_beat": 2,
+   "events": [
+    "词组:鼎立"
+   ]
+  },
+  {
+   "i": 167,
+   "frame": 4474,
+   "t": 149.1333,
+   "sample": 6576780,
+   "bpm": 81.818,
+   "seg": 23,
+   "beat": 3,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 168,
+   "frame": 4496,
+   "t": 149.8667,
+   "sample": 6609120,
+   "bpm": 81.818,
+   "seg": 23,
+   "beat": 4,
+   "bar_beat": 0,
+   "events": []
+  },
+  {
+   "i": 169,
+   "frame": 4518,
+   "t": 150.6,
+   "sample": 6641460,
+   "bpm": 81.818,
+   "seg": 23,
+   "beat": 5,
+   "bar_beat": 1,
+   "events": []
+  },
+  {
+   "i": 170,
+   "frame": 4540,
+   "t": 151.3333,
+   "sample": 6673800,
+   "bpm": 81.818,
+   "seg": 23,
+   "beat": 6,
+   "bar_beat": 2,
+   "events": []
+  },
+  {
+   "i": 171,
+   "frame": 4562,
+   "t": 152.0667,
+   "sample": 6706140,
+   "bpm": 81.818,
+   "seg": 23,
+   "beat": 7,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 172,
+   "frame": 4584,
+   "t": 152.8,
+   "sample": 6738480,
+   "bpm": 81.818,
+   "seg": 24,
+   "beat": 0,
+   "bar_beat": 0,
+   "events": [
+    "cut"
+   ]
+  },
+  {
+   "i": 173,
+   "frame": 4606,
+   "t": 153.5333,
+   "sample": 6770820,
+   "bpm": 81.818,
+   "seg": 24,
+   "beat": 1,
+   "bar_beat": 1,
+   "events": [
+    "词组:兰亭"
+   ]
+  },
+  {
+   "i": 174,
+   "frame": 4628,
+   "t": 154.2667,
+   "sample": 6803160,
+   "bpm": 81.818,
+   "seg": 24,
+   "beat": 2,
+   "bar_beat": 2,
+   "events": [
+    "词组:集序"
+   ]
+  },
+  {
+   "i": 175,
+   "frame": 4650,
+   "t": 155.0,
+   "sample": 6835500,
+   "bpm": 81.818,
+   "seg": 24,
+   "beat": 3,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 176,
+   "frame": 4672,
+   "t": 155.7333,
+   "sample": 6867840,
+   "bpm": 81.818,
+   "seg": 24,
+   "beat": 4,
+   "bar_beat": 0,
+   "events": []
+  },
+  {
+   "i": 177,
+   "frame": 4694,
+   "t": 156.4667,
+   "sample": 6900180,
+   "bpm": 81.818,
+   "seg": 24,
+   "beat": 5,
+   "bar_beat": 1,
+   "events": []
+  },
+  {
+   "i": 178,
+   "frame": 4716,
+   "t": 157.2,
+   "sample": 6932520,
+   "bpm": 81.818,
+   "seg": 24,
+   "beat": 6,
+   "bar_beat": 2,
+   "events": []
+  },
+  {
+   "i": 179,
+   "frame": 4738,
+   "t": 157.9333,
+   "sample": 6964860,
+   "bpm": 81.818,
+   "seg": 24,
+   "beat": 7,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 180,
+   "frame": 4760,
+   "t": 158.6667,
+   "sample": 6997200,
+   "bpm": 81.818,
+   "seg": 25,
+   "beat": 0,
+   "bar_beat": 0,
+   "events": [
+    "cut"
+   ]
+  },
+  {
+   "i": 181,
+   "frame": 4782,
+   "t": 159.4,
+   "sample": 7029540,
+   "bpm": 81.818,
+   "seg": 25,
+   "beat": 1,
+   "bar_beat": 1,
+   "events": [
+    "词组:莫高窟"
+   ]
+  },
+  {
+   "i": 182,
+   "frame": 4804,
+   "t": 160.1333,
+   "sample": 7061880,
+   "bpm": 81.818,
+   "seg": 25,
+   "beat": 2,
+   "bar_beat": 2,
+   "events": []
+  },
+  {
+   "i": 183,
+   "frame": 4826,
+   "t": 160.8667,
+   "sample": 7094220,
+   "bpm": 81.818,
+   "seg": 25,
+   "beat": 3,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 184,
+   "frame": 4848,
+   "t": 161.6,
+   "sample": 7126560,
+   "bpm": 81.818,
+   "seg": 25,
+   "beat": 4,
+   "bar_beat": 0,
+   "events": []
+  },
+  {
+   "i": 185,
+   "frame": 4870,
+   "t": 162.3333,
+   "sample": 7158900,
+   "bpm": 81.818,
+   "seg": 25,
+   "beat": 5,
+   "bar_beat": 1,
+   "events": []
+  },
+  {
+   "i": 186,
+   "frame": 4892,
+   "t": 163.0667,
+   "sample": 7191240,
+   "bpm": 81.818,
+   "seg": 25,
+   "beat": 6,
+   "bar_beat": 2,
+   "events": []
+  },
+  {
+   "i": 187,
+   "frame": 4914,
+   "t": 163.8,
+   "sample": 7223580,
+   "bpm": 81.818,
+   "seg": 25,
+   "beat": 7,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 188,
+   "frame": 4936,
+   "t": 164.5333,
+   "sample": 7255920,
+   "bpm": 81.818,
+   "seg": 26,
+   "beat": 0,
+   "bar_beat": 0,
+   "events": [
+    "cut"
+   ]
+  },
+  {
+   "i": 189,
+   "frame": 4958,
+   "t": 165.2667,
+   "sample": 7288260,
+   "bpm": 81.818,
+   "seg": 26,
+   "beat": 1,
+   "bar_beat": 1,
+   "events": [
+    "词组:圆周率"
+   ]
+  },
+  {
+   "i": 190,
+   "frame": 4980,
+   "t": 166.0,
+   "sample": 7320600,
+   "bpm": 81.818,
+   "seg": 26,
+   "beat": 2,
+   "bar_beat": 2,
+   "events": []
+  },
+  {
+   "i": 191,
+   "frame": 5002,
+   "t": 166.7333,
+   "sample": 7352940,
+   "bpm": 81.818,
+   "seg": 26,
+   "beat": 3,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 192,
+   "frame": 5024,
+   "t": 167.4667,
+   "sample": 7385280,
+   "bpm": 81.818,
+   "seg": 26,
+   "beat": 4,
+   "bar_beat": 0,
+   "events": []
+  },
+  {
+   "i": 193,
+   "frame": 5046,
+   "t": 168.2,
+   "sample": 7417620,
+   "bpm": 81.818,
+   "seg": 26,
+   "beat": 5,
+   "bar_beat": 1,
+   "events": []
+  },
+  {
+   "i": 194,
+   "frame": 5068,
+   "t": 168.9333,
+   "sample": 7449960,
+   "bpm": 81.818,
+   "seg": 26,
+   "beat": 6,
+   "bar_beat": 2,
+   "events": []
+  },
+  {
+   "i": 195,
+   "frame": 5090,
+   "t": 169.6667,
+   "sample": 7482300,
+   "bpm": 81.818,
+   "seg": 26,
+   "beat": 7,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 196,
+   "frame": 5112,
+   "t": 170.4,
+   "sample": 7514640,
+   "bpm": 90.0,
+   "seg": 27,
+   "beat": 0,
+   "bar_beat": 0,
+   "events": [
+    "impact"
+   ]
+  },
+  {
+   "i": 197,
+   "frame": 5132,
+   "t": 171.0667,
+   "sample": 7544040,
+   "bpm": 90.0,
+   "seg": 27,
+   "beat": 1,
+   "bar_beat": 1,
+   "events": []
+  },
+  {
+   "i": 198,
+   "frame": 5152,
+   "t": 171.7333,
+   "sample": 7573440,
+   "bpm": 90.0,
+   "seg": 27,
+   "beat": 2,
+   "bar_beat": 2,
+   "events": []
+  },
+  {
+   "i": 199,
+   "frame": 5172,
+   "t": 172.4,
+   "sample": 7602840,
+   "bpm": 90.0,
+   "seg": 27,
+   "beat": 3,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 200,
+   "frame": 5192,
+   "t": 173.0667,
+   "sample": 7632240,
+   "bpm": 90.0,
+   "seg": 28,
+   "beat": 0,
+   "bar_beat": 0,
+   "events": [
+    "cut"
+   ]
+  },
+  {
+   "i": 201,
+   "frame": 5212,
+   "t": 173.7333,
+   "sample": 7661640,
+   "bpm": 90.0,
+   "seg": 28,
+   "beat": 1,
+   "bar_beat": 1,
+   "events": [
+    "词组:赵州桥"
+   ]
+  },
+  {
+   "i": 202,
+   "frame": 5232,
+   "t": 174.4,
+   "sample": 7691040,
+   "bpm": 90.0,
+   "seg": 28,
+   "beat": 2,
+   "bar_beat": 2,
+   "events": []
+  },
+  {
+   "i": 203,
+   "frame": 5252,
+   "t": 175.0667,
+   "sample": 7720440,
+   "bpm": 90.0,
+   "seg": 28,
+   "beat": 3,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 204,
+   "frame": 5272,
+   "t": 175.7333,
+   "sample": 7749840,
+   "bpm": 90.0,
+   "seg": 28,
+   "beat": 4,
+   "bar_beat": 0,
+   "events": []
+  },
+  {
+   "i": 205,
+   "frame": 5292,
+   "t": 176.4,
+   "sample": 7779240,
+   "bpm": 90.0,
+   "seg": 28,
+   "beat": 5,
+   "bar_beat": 1,
+   "events": []
+  },
+  {
+   "i": 206,
+   "frame": 5312,
+   "t": 177.0667,
+   "sample": 7808640,
+   "bpm": 90.0,
+   "seg": 28,
+   "beat": 6,
+   "bar_beat": 2,
+   "events": []
+  },
+  {
+   "i": 207,
+   "frame": 5332,
+   "t": 177.7333,
+   "sample": 7838040,
+   "bpm": 90.0,
+   "seg": 28,
+   "beat": 7,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 208,
+   "frame": 5352,
+   "t": 178.4,
+   "sample": 7867440,
+   "bpm": 90.0,
+   "seg": 29,
+   "beat": 0,
+   "bar_beat": 0,
+   "events": [
+    "cut"
+   ]
+  },
+  {
+   "i": 209,
+   "frame": 5372,
+   "t": 179.0667,
+   "sample": 7896840,
+   "bpm": 90.0,
+   "seg": 29,
+   "beat": 1,
+   "bar_beat": 1,
+   "events": [
+    "词组:大运河"
+   ]
+  },
+  {
+   "i": 210,
+   "frame": 5392,
+   "t": 179.7333,
+   "sample": 7926240,
+   "bpm": 90.0,
+   "seg": 29,
+   "beat": 2,
+   "bar_beat": 2,
+   "events": []
+  },
+  {
+   "i": 211,
+   "frame": 5412,
+   "t": 180.4,
+   "sample": 7955640,
+   "bpm": 90.0,
+   "seg": 29,
+   "beat": 3,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 212,
+   "frame": 5432,
+   "t": 181.0667,
+   "sample": 7985040,
+   "bpm": 90.0,
+   "seg": 29,
+   "beat": 4,
+   "bar_beat": 0,
+   "events": []
+  },
+  {
+   "i": 213,
+   "frame": 5452,
+   "t": 181.7333,
+   "sample": 8014440,
+   "bpm": 90.0,
+   "seg": 29,
+   "beat": 5,
+   "bar_beat": 1,
+   "events": []
+  },
+  {
+   "i": 214,
+   "frame": 5472,
+   "t": 182.4,
+   "sample": 8043840,
+   "bpm": 90.0,
+   "seg": 29,
+   "beat": 6,
+   "bar_beat": 2,
+   "events": []
+  },
+  {
+   "i": 215,
+   "frame": 5492,
+   "t": 183.0667,
+   "sample": 8073240,
+   "bpm": 90.0,
+   "seg": 29,
+   "beat": 7,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 216,
+   "frame": 5512,
+   "t": 183.7333,
+   "sample": 8102640,
+   "bpm": 90.0,
+   "seg": 30,
+   "beat": 0,
+   "bar_beat": 0,
+   "events": [
+    "cut"
+   ]
+  },
+  {
+   "i": 217,
+   "frame": 5532,
+   "t": 184.4,
+   "sample": 8132040,
+   "bpm": 90.0,
+   "seg": 30,
+   "beat": 1,
+   "bar_beat": 1,
+   "events": [
+    "词组:长安"
+   ]
+  },
+  {
+   "i": 218,
+   "frame": 5552,
+   "t": 185.0667,
+   "sample": 8161440,
+   "bpm": 90.0,
+   "seg": 30,
+   "beat": 2,
+   "bar_beat": 2,
+   "events": [
+    "词组:万国"
+   ]
+  },
+  {
+   "i": 219,
+   "frame": 5572,
+   "t": 185.7333,
+   "sample": 8190840,
+   "bpm": 90.0,
+   "seg": 30,
+   "beat": 3,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 220,
+   "frame": 5592,
+   "t": 186.4,
+   "sample": 8220240,
+   "bpm": 90.0,
+   "seg": 30,
+   "beat": 4,
+   "bar_beat": 0,
+   "events": []
+  },
+  {
+   "i": 221,
+   "frame": 5612,
+   "t": 187.0667,
+   "sample": 8249640,
+   "bpm": 90.0,
+   "seg": 30,
+   "beat": 5,
+   "bar_beat": 1,
+   "events": []
+  },
+  {
+   "i": 222,
+   "frame": 5632,
+   "t": 187.7333,
+   "sample": 8279040,
+   "bpm": 90.0,
+   "seg": 30,
+   "beat": 6,
+   "bar_beat": 2,
+   "events": []
+  },
+  {
+   "i": 223,
+   "frame": 5652,
+   "t": 188.4,
+   "sample": 8308440,
+   "bpm": 90.0,
+   "seg": 30,
+   "beat": 7,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 224,
+   "frame": 5672,
+   "t": 189.0667,
+   "sample": 8337840,
+   "bpm": 90.0,
+   "seg": 31,
+   "beat": 0,
+   "bar_beat": 0,
+   "events": [
+    "cut"
+   ]
+  },
+  {
+   "i": 225,
+   "frame": 5692,
+   "t": 189.7333,
+   "sample": 8367240,
+   "bpm": 90.0,
+   "seg": 31,
+   "beat": 1,
+   "bar_beat": 1,
+   "events": [
+    "词组:盛唐"
+   ]
+  },
+  {
+   "i": 226,
+   "frame": 5712,
+   "t": 190.4,
+   "sample": 8396640,
+   "bpm": 90.0,
+   "seg": 31,
+   "beat": 2,
+   "bar_beat": 2,
+   "events": [
+    "词组:诗歌"
+   ]
+  },
+  {
+   "i": 227,
+   "frame": 5732,
+   "t": 191.0667,
+   "sample": 8426040,
+   "bpm": 90.0,
+   "seg": 31,
+   "beat": 3,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 228,
+   "frame": 5752,
+   "t": 191.7333,
+   "sample": 8455440,
+   "bpm": 90.0,
+   "seg": 31,
+   "beat": 4,
+   "bar_beat": 0,
+   "events": []
+  },
+  {
+   "i": 229,
+   "frame": 5772,
+   "t": 192.4,
+   "sample": 8484840,
+   "bpm": 90.0,
+   "seg": 31,
+   "beat": 5,
+   "bar_beat": 1,
+   "events": []
+  },
+  {
+   "i": 230,
+   "frame": 5792,
+   "t": 193.0667,
+   "sample": 8514240,
+   "bpm": 90.0,
+   "seg": 31,
+   "beat": 6,
+   "bar_beat": 2,
+   "events": []
+  },
+  {
+   "i": 231,
+   "frame": 5812,
+   "t": 193.7333,
+   "sample": 8543640,
+   "bpm": 90.0,
+   "seg": 31,
+   "beat": 7,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 232,
+   "frame": 5832,
+   "t": 194.4,
+   "sample": 8573040,
+   "bpm": 90.0,
+   "seg": 32,
+   "beat": 0,
+   "bar_beat": 0,
+   "events": [
+    "cut"
+   ]
+  },
+  {
+   "i": 233,
+   "frame": 5852,
+   "t": 195.0667,
+   "sample": 8602440,
+   "bpm": 90.0,
+   "seg": 32,
+   "beat": 1,
+   "bar_beat": 1,
+   "events": [
+    "词组:金刚经"
+   ]
+  },
+  {
+   "i": 234,
+   "frame": 5872,
+   "t": 195.7333,
+   "sample": 8631840,
+   "bpm": 90.0,
+   "seg": 32,
+   "beat": 2,
+   "bar_beat": 2,
+   "events": []
+  },
+  {
+   "i": 235,
+   "frame": 5892,
+   "t": 196.4,
+   "sample": 8661240,
+   "bpm": 90.0,
+   "seg": 32,
+   "beat": 3,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 236,
+   "frame": 5912,
+   "t": 197.0667,
+   "sample": 8690640,
+   "bpm": 90.0,
+   "seg": 32,
+   "beat": 4,
+   "bar_beat": 0,
+   "events": []
+  },
+  {
+   "i": 237,
+   "frame": 5932,
+   "t": 197.7333,
+   "sample": 8720040,
+   "bpm": 90.0,
+   "seg": 32,
+   "beat": 5,
+   "bar_beat": 1,
+   "events": []
+  },
+  {
+   "i": 238,
+   "frame": 5952,
+   "t": 198.4,
+   "sample": 8749440,
+   "bpm": 90.0,
+   "seg": 32,
+   "beat": 6,
+   "bar_beat": 2,
+   "events": []
+  },
+  {
+   "i": 239,
+   "frame": 5972,
+   "t": 199.0667,
+   "sample": 8778840,
+   "bpm": 90.0,
+   "seg": 32,
+   "beat": 7,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 240,
+   "frame": 5992,
+   "t": 199.7333,
+   "sample": 8808240,
+   "bpm": 100.0,
+   "seg": 33,
+   "beat": 0,
+   "bar_beat": 0,
+   "events": [
+    "impact"
+   ]
+  },
+  {
+   "i": 241,
+   "frame": 6010,
+   "t": 200.3333,
+   "sample": 8834700,
+   "bpm": 100.0,
+   "seg": 33,
+   "beat": 1,
+   "bar_beat": 1,
+   "events": []
+  },
+  {
+   "i": 242,
+   "frame": 6028,
+   "t": 200.9333,
+   "sample": 8861160,
+   "bpm": 100.0,
+   "seg": 33,
+   "beat": 2,
+   "bar_beat": 2,
+   "events": []
+  },
+  {
+   "i": 243,
+   "frame": 6046,
+   "t": 201.5333,
+   "sample": 8887620,
+   "bpm": 100.0,
+   "seg": 33,
+   "beat": 3,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 244,
+   "frame": 6064,
+   "t": 202.1333,
+   "sample": 8914080,
+   "bpm": 100.0,
+   "seg": 34,
+   "beat": 0,
+   "bar_beat": 0,
+   "events": [
+    "cut"
+   ]
+  },
+  {
+   "i": 245,
+   "frame": 6082,
+   "t": 202.7333,
+   "sample": 8940540,
+   "bpm": 100.0,
+   "seg": 34,
+   "beat": 1,
+   "bar_beat": 1,
+   "events": [
+    "词组:活字"
+   ]
+  },
+  {
+   "i": 246,
+   "frame": 6100,
+   "t": 203.3333,
+   "sample": 8967000,
+   "bpm": 100.0,
+   "seg": 34,
+   "beat": 2,
+   "bar_beat": 2,
+   "events": [
+    "词组:印刷"
+   ]
+  },
+  {
+   "i": 247,
+   "frame": 6118,
+   "t": 203.9333,
+   "sample": 8993460,
+   "bpm": 100.0,
+   "seg": 34,
+   "beat": 3,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 248,
+   "frame": 6136,
+   "t": 204.5333,
+   "sample": 9019920,
+   "bpm": 100.0,
+   "seg": 34,
+   "beat": 4,
+   "bar_beat": 0,
+   "events": []
+  },
+  {
+   "i": 249,
+   "frame": 6154,
+   "t": 205.1333,
+   "sample": 9046380,
+   "bpm": 100.0,
+   "seg": 34,
+   "beat": 5,
+   "bar_beat": 1,
+   "events": []
+  },
+  {
+   "i": 250,
+   "frame": 6172,
+   "t": 205.7333,
+   "sample": 9072840,
+   "bpm": 100.0,
+   "seg": 34,
+   "beat": 6,
+   "bar_beat": 2,
+   "events": []
+  },
+  {
+   "i": 251,
+   "frame": 6190,
+   "t": 206.3333,
+   "sample": 9099300,
+   "bpm": 100.0,
+   "seg": 34,
+   "beat": 7,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 252,
+   "frame": 6208,
+   "t": 206.9333,
+   "sample": 9125760,
+   "bpm": 100.0,
+   "seg": 35,
+   "beat": 0,
+   "bar_beat": 0,
+   "events": [
+    "cut"
+   ]
+  },
+  {
+   "i": 253,
+   "frame": 6226,
+   "t": 207.5333,
+   "sample": 9152220,
+   "bpm": 100.0,
+   "seg": 35,
+   "beat": 1,
+   "bar_beat": 1,
+   "events": [
+    "词组:指南针"
+   ]
+  },
+  {
+   "i": 254,
+   "frame": 6244,
+   "t": 208.1333,
+   "sample": 9178680,
+   "bpm": 100.0,
+   "seg": 35,
+   "beat": 2,
+   "bar_beat": 2,
+   "events": []
+  },
+  {
+   "i": 255,
+   "frame": 6262,
+   "t": 208.7333,
+   "sample": 9205140,
+   "bpm": 100.0,
+   "seg": 35,
+   "beat": 3,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 256,
+   "frame": 6280,
+   "t": 209.3333,
+   "sample": 9231600,
+   "bpm": 100.0,
+   "seg": 35,
+   "beat": 4,
+   "bar_beat": 0,
+   "events": []
+  },
+  {
+   "i": 257,
+   "frame": 6298,
+   "t": 209.9333,
+   "sample": 9258060,
+   "bpm": 100.0,
+   "seg": 35,
+   "beat": 5,
+   "bar_beat": 1,
+   "events": []
+  },
+  {
+   "i": 258,
+   "frame": 6316,
+   "t": 210.5333,
+   "sample": 9284520,
+   "bpm": 100.0,
+   "seg": 35,
+   "beat": 6,
+   "bar_beat": 2,
+   "events": []
+  },
+  {
+   "i": 259,
+   "frame": 6334,
+   "t": 211.1333,
+   "sample": 9310980,
+   "bpm": 100.0,
+   "seg": 35,
+   "beat": 7,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 260,
+   "frame": 6352,
+   "t": 211.7333,
+   "sample": 9337440,
+   "bpm": 100.0,
+   "seg": 36,
+   "beat": 0,
+   "bar_beat": 0,
+   "events": [
+    "cut"
+   ]
+  },
+  {
+   "i": 261,
+   "frame": 6370,
+   "t": 212.3333,
+   "sample": 9363900,
+   "bpm": 100.0,
+   "seg": 36,
+   "beat": 1,
+   "bar_beat": 1,
+   "events": [
+    "词组:汝窑"
+   ]
+  },
+  {
+   "i": 262,
+   "frame": 6388,
+   "t": 212.9333,
+   "sample": 9390360,
+   "bpm": 100.0,
+   "seg": 36,
+   "beat": 2,
+   "bar_beat": 2,
+   "events": [
+    "词组:天青"
+   ]
+  },
+  {
+   "i": 263,
+   "frame": 6406,
+   "t": 213.5333,
+   "sample": 9416820,
+   "bpm": 100.0,
+   "seg": 36,
+   "beat": 3,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 264,
+   "frame": 6424,
+   "t": 214.1333,
+   "sample": 9443280,
+   "bpm": 100.0,
+   "seg": 36,
+   "beat": 4,
+   "bar_beat": 0,
+   "events": []
+  },
+  {
+   "i": 265,
+   "frame": 6442,
+   "t": 214.7333,
+   "sample": 9469740,
+   "bpm": 100.0,
+   "seg": 36,
+   "beat": 5,
+   "bar_beat": 1,
+   "events": []
+  },
+  {
+   "i": 266,
+   "frame": 6460,
+   "t": 215.3333,
+   "sample": 9496200,
+   "bpm": 100.0,
+   "seg": 36,
+   "beat": 6,
+   "bar_beat": 2,
+   "events": []
+  },
+  {
+   "i": 267,
+   "frame": 6478,
+   "t": 215.9333,
+   "sample": 9522660,
+   "bpm": 100.0,
+   "seg": 36,
+   "beat": 7,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 268,
+   "frame": 6496,
+   "t": 216.5333,
+   "sample": 9549120,
+   "bpm": 100.0,
+   "seg": 37,
+   "beat": 0,
+   "bar_beat": 0,
+   "events": [
+    "cut"
+   ]
+  },
+  {
+   "i": 269,
+   "frame": 6514,
+   "t": 217.1333,
+   "sample": 9575580,
+   "bpm": 100.0,
+   "seg": 37,
+   "beat": 1,
+   "bar_beat": 1,
+   "events": [
+    "词组:临安"
+   ]
+  },
+  {
+   "i": 270,
+   "frame": 6532,
+   "t": 217.7333,
+   "sample": 9602040,
+   "bpm": 100.0,
+   "seg": 37,
+   "beat": 2,
+   "bar_beat": 2,
+   "events": [
+    "词组:西湖"
+   ]
+  },
+  {
+   "i": 271,
+   "frame": 6550,
+   "t": 218.3333,
+   "sample": 9628500,
+   "bpm": 100.0,
+   "seg": 37,
+   "beat": 3,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 272,
+   "frame": 6568,
+   "t": 218.9333,
+   "sample": 9654960,
+   "bpm": 100.0,
+   "seg": 37,
+   "beat": 4,
+   "bar_beat": 0,
+   "events": []
+  },
+  {
+   "i": 273,
+   "frame": 6586,
+   "t": 219.5333,
+   "sample": 9681420,
+   "bpm": 100.0,
+   "seg": 37,
+   "beat": 5,
+   "bar_beat": 1,
+   "events": []
+  },
+  {
+   "i": 274,
+   "frame": 6604,
+   "t": 220.1333,
+   "sample": 9707880,
+   "bpm": 100.0,
+   "seg": 37,
+   "beat": 6,
+   "bar_beat": 2,
+   "events": []
+  },
+  {
+   "i": 275,
+   "frame": 6622,
+   "t": 220.7333,
+   "sample": 9734340,
+   "bpm": 100.0,
+   "seg": 37,
+   "beat": 7,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 276,
+   "frame": 6640,
+   "t": 221.3333,
+   "sample": 9760800,
+   "bpm": 100.0,
+   "seg": 38,
+   "beat": 0,
+   "bar_beat": 0,
+   "events": [
+    "cut"
+   ]
+  },
+  {
+   "i": 277,
+   "frame": 6658,
+   "t": 221.9333,
+   "sample": 9787260,
+   "bpm": 100.0,
+   "seg": 38,
+   "beat": 1,
+   "bar_beat": 1,
+   "events": [
+    "词组:授时历"
+   ]
+  },
+  {
+   "i": 278,
+   "frame": 6676,
+   "t": 222.5333,
+   "sample": 9813720,
+   "bpm": 100.0,
+   "seg": 38,
+   "beat": 2,
+   "bar_beat": 2,
+   "events": []
+  },
+  {
+   "i": 279,
+   "frame": 6694,
+   "t": 223.1333,
+   "sample": 9840180,
+   "bpm": 100.0,
+   "seg": 38,
+   "beat": 3,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 280,
+   "frame": 6712,
+   "t": 223.7333,
+   "sample": 9866640,
+   "bpm": 100.0,
+   "seg": 38,
+   "beat": 4,
+   "bar_beat": 0,
+   "events": []
+  },
+  {
+   "i": 281,
+   "frame": 6730,
+   "t": 224.3333,
+   "sample": 9893100,
+   "bpm": 100.0,
+   "seg": 38,
+   "beat": 5,
+   "bar_beat": 1,
+   "events": []
+  },
+  {
+   "i": 282,
+   "frame": 6748,
+   "t": 224.9333,
+   "sample": 9919560,
+   "bpm": 100.0,
+   "seg": 38,
+   "beat": 6,
+   "bar_beat": 2,
+   "events": []
+  },
+  {
+   "i": 283,
+   "frame": 6766,
+   "t": 225.5333,
+   "sample": 9946020,
+   "bpm": 100.0,
+   "seg": 38,
+   "beat": 7,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 284,
+   "frame": 6784,
+   "t": 226.1333,
+   "sample": 9972480,
+   "bpm": 112.5,
+   "seg": 39,
+   "beat": 0,
+   "bar_beat": 0,
+   "events": [
+    "impact"
+   ]
+  },
+  {
+   "i": 285,
+   "frame": 6800,
+   "t": 226.6667,
+   "sample": 9996000,
+   "bpm": 112.5,
+   "seg": 39,
+   "beat": 1,
+   "bar_beat": 1,
+   "events": []
+  },
+  {
+   "i": 286,
+   "frame": 6816,
+   "t": 227.2,
+   "sample": 10019520,
+   "bpm": 112.5,
+   "seg": 39,
+   "beat": 2,
+   "bar_beat": 2,
+   "events": []
+  },
+  {
+   "i": 287,
+   "frame": 6832,
+   "t": 227.7333,
+   "sample": 10043040,
+   "bpm": 112.5,
+   "seg": 39,
+   "beat": 3,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 288,
+   "frame": 6848,
+   "t": 228.2667,
+   "sample": 10066560,
+   "bpm": 112.5,
+   "seg": 40,
+   "beat": 0,
+   "bar_beat": 0,
+   "events": [
+    "cut"
+   ]
+  },
+  {
+   "i": 289,
+   "frame": 6864,
+   "t": 228.8,
+   "sample": 10090080,
+   "bpm": 112.5,
+   "seg": 40,
+   "beat": 1,
+   "bar_beat": 1,
+   "events": [
+    "词组:郑和"
+   ]
+  },
+  {
+   "i": 290,
+   "frame": 6880,
+   "t": 229.3333,
+   "sample": 10113600,
+   "bpm": 112.5,
+   "seg": 40,
+   "beat": 2,
+   "bar_beat": 2,
+   "events": [
+    "词组:下西洋"
+   ]
+  },
+  {
+   "i": 291,
+   "frame": 6896,
+   "t": 229.8667,
+   "sample": 10137120,
+   "bpm": 112.5,
+   "seg": 40,
+   "beat": 3,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 292,
+   "frame": 6912,
+   "t": 230.4,
+   "sample": 10160640,
+   "bpm": 112.5,
+   "seg": 40,
+   "beat": 4,
+   "bar_beat": 0,
+   "events": []
+  },
+  {
+   "i": 293,
+   "frame": 6928,
+   "t": 230.9333,
+   "sample": 10184160,
+   "bpm": 112.5,
+   "seg": 40,
+   "beat": 5,
+   "bar_beat": 1,
+   "events": []
+  },
+  {
+   "i": 294,
+   "frame": 6944,
+   "t": 231.4667,
+   "sample": 10207680,
+   "bpm": 112.5,
+   "seg": 40,
+   "beat": 6,
+   "bar_beat": 2,
+   "events": []
+  },
+  {
+   "i": 295,
+   "frame": 6960,
+   "t": 232.0,
+   "sample": 10231200,
+   "bpm": 112.5,
+   "seg": 40,
+   "beat": 7,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 296,
+   "frame": 6976,
+   "t": 232.5333,
+   "sample": 10254720,
+   "bpm": 112.5,
+   "seg": 41,
+   "beat": 0,
+   "bar_beat": 0,
+   "events": [
+    "cut"
+   ]
+  },
+  {
+   "i": 297,
+   "frame": 6992,
+   "t": 233.0667,
+   "sample": 10278240,
+   "bpm": 112.5,
+   "seg": 41,
+   "beat": 1,
+   "bar_beat": 1,
+   "events": [
+    "词组:紫禁城"
+   ]
+  },
+  {
+   "i": 298,
+   "frame": 7008,
+   "t": 233.6,
+   "sample": 10301760,
+   "bpm": 112.5,
+   "seg": 41,
+   "beat": 2,
+   "bar_beat": 2,
+   "events": []
+  },
+  {
+   "i": 299,
+   "frame": 7024,
+   "t": 234.1333,
+   "sample": 10325280,
+   "bpm": 112.5,
+   "seg": 41,
+   "beat": 3,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 300,
+   "frame": 7040,
+   "t": 234.6667,
+   "sample": 10348800,
+   "bpm": 112.5,
+   "seg": 41,
+   "beat": 4,
+   "bar_beat": 0,
+   "events": []
+  },
+  {
+   "i": 301,
+   "frame": 7056,
+   "t": 235.2,
+   "sample": 10372320,
+   "bpm": 112.5,
+   "seg": 41,
+   "beat": 5,
+   "bar_beat": 1,
+   "events": []
+  },
+  {
+   "i": 302,
+   "frame": 7072,
+   "t": 235.7333,
+   "sample": 10395840,
+   "bpm": 112.5,
+   "seg": 41,
+   "beat": 6,
+   "bar_beat": 2,
+   "events": []
+  },
+  {
+   "i": 303,
+   "frame": 7088,
+   "t": 236.2667,
+   "sample": 10419360,
+   "bpm": 112.5,
+   "seg": 41,
+   "beat": 7,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 304,
+   "frame": 7104,
+   "t": 236.8,
+   "sample": 10442880,
+   "bpm": 112.5,
+   "seg": 42,
+   "beat": 0,
+   "bar_beat": 0,
+   "events": [
+    "cut"
+   ]
+  },
+  {
+   "i": 305,
+   "frame": 7120,
+   "t": 237.3333,
+   "sample": 10466400,
+   "bpm": 112.5,
+   "seg": 42,
+   "beat": 1,
+   "bar_beat": 1,
+   "events": [
+    "词组:本草"
+   ]
+  },
+  {
+   "i": 306,
+   "frame": 7136,
+   "t": 237.8667,
+   "sample": 10489920,
+   "bpm": 112.5,
+   "seg": 42,
+   "beat": 2,
+   "bar_beat": 2,
+   "events": [
+    "词组:纲目"
+   ]
+  },
+  {
+   "i": 307,
+   "frame": 7152,
+   "t": 238.4,
+   "sample": 10513440,
+   "bpm": 112.5,
+   "seg": 42,
+   "beat": 3,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 308,
+   "frame": 7168,
+   "t": 238.9333,
+   "sample": 10536960,
+   "bpm": 112.5,
+   "seg": 42,
+   "beat": 4,
+   "bar_beat": 0,
+   "events": []
+  },
+  {
+   "i": 309,
+   "frame": 7184,
+   "t": 239.4667,
+   "sample": 10560480,
+   "bpm": 112.5,
+   "seg": 42,
+   "beat": 5,
+   "bar_beat": 1,
+   "events": []
+  },
+  {
+   "i": 310,
+   "frame": 7200,
+   "t": 240.0,
+   "sample": 10584000,
+   "bpm": 112.5,
+   "seg": 42,
+   "beat": 6,
+   "bar_beat": 2,
+   "events": []
+  },
+  {
+   "i": 311,
+   "frame": 7216,
+   "t": 240.5333,
+   "sample": 10607520,
+   "bpm": 112.5,
+   "seg": 42,
+   "beat": 7,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 312,
+   "frame": 7232,
+   "t": 241.0667,
+   "sample": 10631040,
+   "bpm": 112.5,
+   "seg": 43,
+   "beat": 0,
+   "bar_beat": 0,
+   "events": [
+    "cut"
+   ]
+  },
+  {
+   "i": 313,
+   "frame": 7248,
+   "t": 241.6,
+   "sample": 10654560,
+   "bpm": 112.5,
+   "seg": 43,
+   "beat": 1,
+   "bar_beat": 1,
+   "events": [
+    "词组:天工"
+   ]
+  },
+  {
+   "i": 314,
+   "frame": 7264,
+   "t": 242.1333,
+   "sample": 10678080,
+   "bpm": 112.5,
+   "seg": 43,
+   "beat": 2,
+   "bar_beat": 2,
+   "events": [
+    "词组:开物"
+   ]
+  },
+  {
+   "i": 315,
+   "frame": 7280,
+   "t": 242.6667,
+   "sample": 10701600,
+   "bpm": 112.5,
+   "seg": 43,
+   "beat": 3,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 316,
+   "frame": 7296,
+   "t": 243.2,
+   "sample": 10725120,
+   "bpm": 112.5,
+   "seg": 43,
+   "beat": 4,
+   "bar_beat": 0,
+   "events": []
+  },
+  {
+   "i": 317,
+   "frame": 7312,
+   "t": 243.7333,
+   "sample": 10748640,
+   "bpm": 112.5,
+   "seg": 43,
+   "beat": 5,
+   "bar_beat": 1,
+   "events": []
+  },
+  {
+   "i": 318,
+   "frame": 7328,
+   "t": 244.2667,
+   "sample": 10772160,
+   "bpm": 112.5,
+   "seg": 43,
+   "beat": 6,
+   "bar_beat": 2,
+   "events": []
+  },
+  {
+   "i": 319,
+   "frame": 7344,
+   "t": 244.8,
+   "sample": 10795680,
+   "bpm": 112.5,
+   "seg": 43,
+   "beat": 7,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 320,
+   "frame": 7360,
+   "t": 245.3333,
+   "sample": 10819200,
+   "bpm": 112.5,
+   "seg": 44,
+   "beat": 0,
+   "bar_beat": 0,
+   "events": [
+    "cut"
+   ]
+  },
+  {
+   "i": 321,
+   "frame": 7376,
+   "t": 245.8667,
+   "sample": 10842720,
+   "bpm": 112.5,
+   "seg": 44,
+   "beat": 1,
+   "bar_beat": 1,
+   "events": [
+    "词组:四库"
+   ]
+  },
+  {
+   "i": 322,
+   "frame": 7392,
+   "t": 246.4,
+   "sample": 10866240,
+   "bpm": 112.5,
+   "seg": 44,
+   "beat": 2,
+   "bar_beat": 2,
+   "events": [
+    "词组:全书"
+   ]
+  },
+  {
+   "i": 323,
+   "frame": 7408,
+   "t": 246.9333,
+   "sample": 10889760,
+   "bpm": 112.5,
+   "seg": 44,
+   "beat": 3,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 324,
+   "frame": 7424,
+   "t": 247.4667,
+   "sample": 10913280,
+   "bpm": 112.5,
+   "seg": 44,
+   "beat": 4,
+   "bar_beat": 0,
+   "events": []
+  },
+  {
+   "i": 325,
+   "frame": 7440,
+   "t": 248.0,
+   "sample": 10936800,
+   "bpm": 112.5,
+   "seg": 44,
+   "beat": 5,
+   "bar_beat": 1,
+   "events": []
+  },
+  {
+   "i": 326,
+   "frame": 7456,
+   "t": 248.5333,
+   "sample": 10960320,
+   "bpm": 112.5,
+   "seg": 44,
+   "beat": 6,
+   "bar_beat": 2,
+   "events": []
+  },
+  {
+   "i": 327,
+   "frame": 7472,
+   "t": 249.0667,
+   "sample": 10983840,
+   "bpm": 112.5,
+   "seg": 44,
+   "beat": 7,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 328,
+   "frame": 7488,
+   "t": 249.6,
+   "sample": 11007360,
+   "bpm": 120.0,
+   "seg": 45,
+   "beat": 0,
+   "bar_beat": 0,
+   "events": [
+    "impact"
+   ]
+  },
+  {
+   "i": 329,
+   "frame": 7503,
+   "t": 250.1,
+   "sample": 11029410,
+   "bpm": 120.0,
+   "seg": 45,
+   "beat": 1,
+   "bar_beat": 1,
+   "events": []
+  },
+  {
+   "i": 330,
+   "frame": 7518,
+   "t": 250.6,
+   "sample": 11051460,
+   "bpm": 120.0,
+   "seg": 45,
+   "beat": 2,
+   "bar_beat": 2,
+   "events": []
+  },
+  {
+   "i": 331,
+   "frame": 7533,
+   "t": 251.1,
+   "sample": 11073510,
+   "bpm": 120.0,
+   "seg": 45,
+   "beat": 3,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 332,
+   "frame": 7548,
+   "t": 251.6,
+   "sample": 11095560,
+   "bpm": 120.0,
+   "seg": 46,
+   "beat": 0,
+   "bar_beat": 0,
+   "events": [
+    "cut"
+   ]
+  },
+  {
+   "i": 333,
+   "frame": 7563,
+   "t": 252.1,
+   "sample": 11117610,
+   "bpm": 120.0,
+   "seg": 46,
+   "beat": 1,
+   "bar_beat": 1,
+   "events": [
+    "词组:鸦片"
+   ]
+  },
+  {
+   "i": 334,
+   "frame": 7578,
+   "t": 252.6,
+   "sample": 11139660,
+   "bpm": 120.0,
+   "seg": 46,
+   "beat": 2,
+   "bar_beat": 2,
+   "events": [
+    "词组:战争"
+   ]
+  },
+  {
+   "i": 335,
+   "frame": 7593,
+   "t": 253.1,
+   "sample": 11161710,
+   "bpm": 120.0,
+   "seg": 46,
+   "beat": 3,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 336,
+   "frame": 7608,
+   "t": 253.6,
+   "sample": 11183760,
+   "bpm": 120.0,
+   "seg": 46,
+   "beat": 4,
+   "bar_beat": 0,
+   "events": []
+  },
+  {
+   "i": 337,
+   "frame": 7623,
+   "t": 254.1,
+   "sample": 11205810,
+   "bpm": 120.0,
+   "seg": 46,
+   "beat": 5,
+   "bar_beat": 1,
+   "events": []
+  },
+  {
+   "i": 338,
+   "frame": 7638,
+   "t": 254.6,
+   "sample": 11227860,
+   "bpm": 120.0,
+   "seg": 46,
+   "beat": 6,
+   "bar_beat": 2,
+   "events": []
+  },
+  {
+   "i": 339,
+   "frame": 7653,
+   "t": 255.1,
+   "sample": 11249910,
+   "bpm": 120.0,
+   "seg": 46,
+   "beat": 7,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 340,
+   "frame": 7668,
+   "t": 255.6,
+   "sample": 11271960,
+   "bpm": 120.0,
+   "seg": 47,
+   "beat": 0,
+   "bar_beat": 0,
+   "events": [
+    "cut"
+   ]
+  },
+  {
+   "i": 341,
+   "frame": 7683,
+   "t": 256.1,
+   "sample": 11294010,
+   "bpm": 120.0,
+   "seg": 47,
+   "beat": 1,
+   "bar_beat": 1,
+   "events": [
+    "词组:辛亥"
+   ]
+  },
+  {
+   "i": 342,
+   "frame": 7698,
+   "t": 256.6,
+   "sample": 11316060,
+   "bpm": 120.0,
+   "seg": 47,
+   "beat": 2,
+   "bar_beat": 2,
+   "events": [
+    "词组:革命"
+   ]
+  },
+  {
+   "i": 343,
+   "frame": 7713,
+   "t": 257.1,
+   "sample": 11338110,
+   "bpm": 120.0,
+   "seg": 47,
+   "beat": 3,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 344,
+   "frame": 7728,
+   "t": 257.6,
+   "sample": 11360160,
+   "bpm": 120.0,
+   "seg": 47,
+   "beat": 4,
+   "bar_beat": 0,
+   "events": []
+  },
+  {
+   "i": 345,
+   "frame": 7743,
+   "t": 258.1,
+   "sample": 11382210,
+   "bpm": 120.0,
+   "seg": 47,
+   "beat": 5,
+   "bar_beat": 1,
+   "events": []
+  },
+  {
+   "i": 346,
+   "frame": 7758,
+   "t": 258.6,
+   "sample": 11404260,
+   "bpm": 120.0,
+   "seg": 47,
+   "beat": 6,
+   "bar_beat": 2,
+   "events": []
+  },
+  {
+   "i": 347,
+   "frame": 7773,
+   "t": 259.1,
+   "sample": 11426310,
+   "bpm": 120.0,
+   "seg": 47,
+   "beat": 7,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 348,
+   "frame": 7788,
+   "t": 259.6,
+   "sample": 11448360,
+   "bpm": 120.0,
+   "seg": 48,
+   "beat": 0,
+   "bar_beat": 0,
+   "events": [
+    "cut"
+   ]
+  },
+  {
+   "i": 349,
+   "frame": 7803,
+   "t": 260.1,
+   "sample": 11470410,
+   "bpm": 120.0,
+   "seg": 48,
+   "beat": 1,
+   "bar_beat": 1,
+   "events": [
+    "词组:中华人民"
+   ]
+  },
+  {
+   "i": 350,
+   "frame": 7818,
+   "t": 260.6,
+   "sample": 11492460,
+   "bpm": 120.0,
+   "seg": 48,
+   "beat": 2,
+   "bar_beat": 2,
+   "events": [
+    "词组:共和国"
+   ]
+  },
+  {
+   "i": 351,
+   "frame": 7833,
+   "t": 261.1,
+   "sample": 11514510,
+   "bpm": 120.0,
+   "seg": 48,
+   "beat": 3,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 352,
+   "frame": 7848,
+   "t": 261.6,
+   "sample": 11536560,
+   "bpm": 120.0,
+   "seg": 48,
+   "beat": 4,
+   "bar_beat": 0,
+   "events": []
+  },
+  {
+   "i": 353,
+   "frame": 7863,
+   "t": 262.1,
+   "sample": 11558610,
+   "bpm": 120.0,
+   "seg": 48,
+   "beat": 5,
+   "bar_beat": 1,
+   "events": []
+  },
+  {
+   "i": 354,
+   "frame": 7878,
+   "t": 262.6,
+   "sample": 11580660,
+   "bpm": 120.0,
+   "seg": 48,
+   "beat": 6,
+   "bar_beat": 2,
+   "events": []
+  },
+  {
+   "i": 355,
+   "frame": 7893,
+   "t": 263.1,
+   "sample": 11602710,
+   "bpm": 120.0,
+   "seg": 48,
+   "beat": 7,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 356,
+   "frame": 7908,
+   "t": 263.6,
+   "sample": 11624760,
+   "bpm": 120.0,
+   "seg": 49,
+   "beat": 0,
+   "bar_beat": 0,
+   "events": [
+    "cut"
+   ]
+  },
+  {
+   "i": 357,
+   "frame": 7923,
+   "t": 264.1,
+   "sample": 11646810,
+   "bpm": 120.0,
+   "seg": 49,
+   "beat": 1,
+   "bar_beat": 1,
+   "events": [
+    "词组:改革"
+   ]
+  },
+  {
+   "i": 358,
+   "frame": 7938,
+   "t": 264.6,
+   "sample": 11668860,
+   "bpm": 120.0,
+   "seg": 49,
+   "beat": 2,
+   "bar_beat": 2,
+   "events": [
+    "词组:开放"
+   ]
+  },
+  {
+   "i": 359,
+   "frame": 7953,
+   "t": 265.1,
+   "sample": 11690910,
+   "bpm": 120.0,
+   "seg": 49,
+   "beat": 3,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 360,
+   "frame": 7968,
+   "t": 265.6,
+   "sample": 11712960,
+   "bpm": 120.0,
+   "seg": 49,
+   "beat": 4,
+   "bar_beat": 0,
+   "events": []
+  },
+  {
+   "i": 361,
+   "frame": 7983,
+   "t": 266.1,
+   "sample": 11735010,
+   "bpm": 120.0,
+   "seg": 49,
+   "beat": 5,
+   "bar_beat": 1,
+   "events": []
+  },
+  {
+   "i": 362,
+   "frame": 7998,
+   "t": 266.6,
+   "sample": 11757060,
+   "bpm": 120.0,
+   "seg": 49,
+   "beat": 6,
+   "bar_beat": 2,
+   "events": []
+  },
+  {
+   "i": 363,
+   "frame": 8013,
+   "t": 267.1,
+   "sample": 11779110,
+   "bpm": 120.0,
+   "seg": 49,
+   "beat": 7,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 364,
+   "frame": 8028,
+   "t": 267.6,
+   "sample": 11801160,
+   "bpm": 120.0,
+   "seg": 50,
+   "beat": 0,
+   "bar_beat": 0,
+   "events": [
+    "cut"
+   ]
+  },
+  {
+   "i": 365,
+   "frame": 8043,
+   "t": 268.1,
+   "sample": 11823210,
+   "bpm": 120.0,
+   "seg": 50,
+   "beat": 1,
+   "bar_beat": 1,
+   "events": [
+    "词组:神舟"
+   ]
+  },
+  {
+   "i": 366,
+   "frame": 8058,
+   "t": 268.6,
+   "sample": 11845260,
+   "bpm": 120.0,
+   "seg": 50,
+   "beat": 2,
+   "bar_beat": 2,
+   "events": [
+    "词组:五号"
+   ]
+  },
+  {
+   "i": 367,
+   "frame": 8073,
+   "t": 269.1,
+   "sample": 11867310,
+   "bpm": 120.0,
+   "seg": 50,
+   "beat": 3,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 368,
+   "frame": 8088,
+   "t": 269.6,
+   "sample": 11889360,
+   "bpm": 120.0,
+   "seg": 50,
+   "beat": 4,
+   "bar_beat": 0,
+   "events": []
+  },
+  {
+   "i": 369,
+   "frame": 8103,
+   "t": 270.1,
+   "sample": 11911410,
+   "bpm": 120.0,
+   "seg": 50,
+   "beat": 5,
+   "bar_beat": 1,
+   "events": []
+  },
+  {
+   "i": 370,
+   "frame": 8118,
+   "t": 270.6,
+   "sample": 11933460,
+   "bpm": 120.0,
+   "seg": 50,
+   "beat": 6,
+   "bar_beat": 2,
+   "events": []
+  },
+  {
+   "i": 371,
+   "frame": 8133,
+   "t": 271.1,
+   "sample": 11955510,
+   "bpm": 120.0,
+   "seg": 50,
+   "beat": 7,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 372,
+   "frame": 8148,
+   "t": 271.6,
+   "sample": 11977560,
+   "bpm": 120.0,
+   "seg": 51,
+   "beat": 0,
+   "bar_beat": 0,
+   "events": [
+    "impact"
+   ]
+  },
+  {
+   "i": 373,
+   "frame": 8163,
+   "t": 272.1,
+   "sample": 11999610,
+   "bpm": 120.0,
+   "seg": 51,
+   "beat": 1,
+   "bar_beat": 1,
+   "events": []
+  },
+  {
+   "i": 374,
+   "frame": 8178,
+   "t": 272.6,
+   "sample": 12021660,
+   "bpm": 120.0,
+   "seg": 51,
+   "beat": 2,
+   "bar_beat": 2,
+   "events": []
+  },
+  {
+   "i": 375,
+   "frame": 8193,
+   "t": 273.1,
+   "sample": 12043710,
+   "bpm": 120.0,
+   "seg": 51,
+   "beat": 3,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 376,
+   "frame": 8208,
+   "t": 273.6,
+   "sample": 12065760,
+   "bpm": 120.0,
+   "seg": 51,
+   "beat": 4,
+   "bar_beat": 0,
+   "events": []
+  },
+  {
+   "i": 377,
+   "frame": 8223,
+   "t": 274.1,
+   "sample": 12087810,
+   "bpm": 120.0,
+   "seg": 51,
+   "beat": 5,
+   "bar_beat": 1,
+   "events": []
+  },
+  {
+   "i": 378,
+   "frame": 8238,
+   "t": 274.6,
+   "sample": 12109860,
+   "bpm": 120.0,
+   "seg": 51,
+   "beat": 6,
+   "bar_beat": 2,
+   "events": []
+  },
+  {
+   "i": 379,
+   "frame": 8253,
+   "t": 275.1,
+   "sample": 12131910,
+   "bpm": 120.0,
+   "seg": 51,
+   "beat": 7,
+   "bar_beat": 3,
+   "events": []
+  },
+  {
+   "i": 380,
+   "frame": 8268,
+   "t": 275.6,
+   "sample": 12153960,
+   "bpm": 120.0,
+   "seg": 51,
+   "beat": 8,
+   "bar_beat": 0,
+   "events": []
+  },
+  {
+   "i": 381,
+   "frame": 8283,
+   "t": 276.1,
+   "sample": 12176010,
+   "bpm": 120.0,
+   "seg": 51,
+   "beat": 9,
+   "bar_beat": 1,
+   "events": []
+  },
+  {
+   "i": 382,
+   "frame": 8298,
+   "t": 276.6,
+   "sample": 12198060,
+   "bpm": 120.0,
+   "seg": 51,
+   "beat": 10,
+   "bar_beat": 2,
+   "events": []
+  },
+  {
+   "i": 383,
+   "frame": 8313,
+   "t": 277.1,
+   "sample": 12220110,
+   "bpm": 120.0,
+   "seg": 51,
+   "beat": 11,
+   "bar_beat": 3,
+   "events": []
+  }
+ ]
+}
