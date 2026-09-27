@@ -72,6 +72,13 @@ def lighten(c, k):
     return tuple(int(v + (255 - v) * k) for v in c)
 
 
+def on_dark(c):
+    c = lighten(c, 0.2)
+    while 0.3 * c[0] + 0.59 * c[1] + 0.11 * c[2] < 135:
+        c = lighten(c, 0.12)
+    return c
+
+
 def darken(c, k):
     return tuple(int(v * (1 - k)) for v in c)
 
@@ -107,7 +114,7 @@ class Film:
         c = self.vol(seg)["color"]
         if seg["style"] == "xuan":
             return dict(bg=XUAN_BG, ink=INK, accent=darken(c, 0.08), faint=(200, 188, 165), strip=(226, 214, 188))
-        return dict(bg=JIN_BG, ink=GOLD, accent=lighten(c, 0.25), faint=(70, 60, 45), strip=(32, 28, 24))
+        return dict(bg=JIN_BG, ink=GOLD, accent=on_dark(c), faint=(70, 60, 45), strip=(32, 28, 24))
 
     def background(self, style):
         if style in self._bg:
@@ -333,13 +340,14 @@ class Film:
         mx = sw // 2
         steps = [1000, 200, 100, 50, 50, 50, 50, 50, 20]
         fsmall = font("serif", 17)
+        ftiny = font("serif", 14)
         for vi, v in enumerate(TL.VOLUMES):
             k0, k1 = TL.KNOTS[vi], TL.KNOTS[vi + 1]
             xa = mx + (vi - uc) * PPV
             xb = mx + (vi + 1 - uc) * PPV
             if xb < -50 or xa > sw + 50:
                 continue
-            col = v["color"] if seg["style"] == "xuan" else lighten(v["color"], 0.2)
+            col = v["color"] if seg["style"] == "xuan" else on_dark(v["color"])
             d.rectangle([xa, sh - 16, xb, sh - 6], fill=col)
             d.text(((xa + xb) / 2, sh - 20), "卷" + TL.NUMERALS[vi] + " " + "".join(v["title"]), font=fsmall,
                    fill=C["ink"], anchor="mb")
