@@ -1,0 +1,147 @@
+{
+  "repos": [
+    {
+      "repo": "anthropics/skills",
+      "skills": ["skills/frontend-design", "skills/skill-creator"]
+    },
+    {
+      "repo": "anthropics/claude-plugins-community",
+      "ref": "main",
+      "skills": ["eli5/skills/eli5"]
+    },
+    {
+      "repo": "vercel-labs/skills",
+      "skills": ["skills/find-skills"]
+    },
+    {
+      "repo": "vercel-labs/agent-skills",
+      "skills": ["skills/react-best-practices", "skills/web-design-guidelines"]
+    },
+    {
+      "repo": "mattpocock/skills",
+      "skills": [
+        "skills/engineering/code-review",
+        "skills/engineering/codebase-design",
+        "skills/engineering/diagnosing-bugs",
+        "skills/engineering/domain-modeling",
+        "skills/engineering/grill-with-docs",
+        "skills/engineering/improve-codebase-architecture",
+        "skills/engineering/prototype",
+        "skills/engineering/setup-matt-pocock-skills",
+        "skills/engineering/triage",
+        "skills/productivity/grill-me",
+        "skills/productivity/grilling",
+        "skills/productivity/handoff",
+        "skills/productivity/teach"
+      ]
+    },
+    {
+      "repo": "kepano/obsidian-skills",
+      "skills": [
+        "skills/defuddle",
+        "skills/json-canvas",
+        "skills/obsidian-bases",
+        "skills/obsidian-cli",
+        "skills/obsidian-markdown"
+      ]
+    },
+    {
+      "repo": "larksuite/cli",
+      "skills": [
+        "skills/lark-approval",
+        "skills/lark-apps",
+        "skills/lark-attendance",
+        "skills/lark-base",
+        "skills/lark-calendar",
+        "skills/lark-contact",
+        "skills/lark-doc",
+        "skills/lark-drive",
+        "skills/lark-event",
+        "skills/lark-im",
+        "skills/lark-mail",
+        "skills/lark-markdown",
+        "skills/lark-meeting",
+        "skills/lark-minutes",
+        "skills/lark-note",
+        "skills/lark-okr",
+        "skills/lark-openapi-explorer",
+        "skills/lark-shared",
+        "skills/lark-sheets",
+        "skills/lark-skill-maker",
+        "skills/lark-slides",
+        "skills/lark-task",
+        "skills/lark-vc",
+        "skills/lark-vc-agent",
+        "skills/lark-whiteboard",
+        "skills/lark-wiki",
+        "skills/lark-workflow-meeting-summary",
+        "skills/lark-workflow-standup-report"
+      ]
+    },
+    {
+      "repo": "lijigang/ljg-skills",
+      "skills": [
+        "skills/ljg-blind",
+        "skills/ljg-book",
+        "skills/ljg-card",
+        "skills/ljg-classic",
+        "skills/ljg-constraint",
+        "skills/ljg-invest",
+        "skills/ljg-is",
+        "skills/ljg-learn",
+        "skills/ljg-paper",
+        "skills/ljg-plain",
+        "skills/ljg-present",
+        "skills/ljg-push",
+        "skills/ljg-qa",
+        "skills/ljg-rank",
+        "skills/ljg-read",
+        "skills/ljg-relationship",
+        "skills/ljg-roundtable",
+        "skills/ljg-structure",
+        "skills/ljg-think",
+        "skills/ljg-word",
+        "skills/ljg-writes"
+      ]
+    },
+    {
+      "repo": "DeepXiv/deepxiv_sdk",
+      "skills": ["skills/deepxiv-baseline-table", "skills/deepxiv-cli", "skills/deepxiv-trending-digest"]
+    },
+    {
+      "repo": "ZenMux/skills",
+      "skills": [
+        "skills/zenmux-context",
+        "skills/zenmux-feedback",
+        "skills/zenmux-image-generation",
+        "skills/zenmux-setup",
+        "skills/zenmux-statusline",
+        "skills/zenmux-usage"
+      ]
+    },
+    {
+      "repo": "heygen-com/hyperframes",
+      "skills": ["skills/hyperframes", "skills/hyperframes-registry", "skills/media-use"]
+    },
+    {
+      "repo": "teng-lin/notebooklm-py",
+      "skills": ["."]
+    },
+    {
+      "repo": "yzddmr6/repo-analyzer",
+      "skills": ["skills/repo-analyzer"]
+    },
+    {
+      "repo": "tt-a1i/archify",
+      "skills": ["archify"]
+    },
+    {
+      "repo": "flowkit-labs/skills",
+      "skills": ["reddit-automation"]
+    },
+    {
+      "repo": "101-skills/superpowers",
+      "skills": ["tools/video/ai-video-generation"]
+    }
+  ]
+}

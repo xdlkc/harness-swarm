@@ -78,9 +78,9 @@ console.log(JSON.stringify({ argv: process.argv.slice(2), cwd: process.cwd() }))
     });
   }
 
-  it("advertises all eight harnesses in the shipped schema", () => {
+  it("advertises all harnesses in the shipped schema", () => {
     assert.deepEqual(RUN_HARNESS_SCHEMA.properties.name.enum, [
-      "qoder", "kimi", "pi", "grok", "codex", "claude", "dsh", "opencode",
+      "qoder", "kimi", "pi", "grok", "codex", "claude", "dsh", "opencode", "opencode2",
     ]);
   });
 

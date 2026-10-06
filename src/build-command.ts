@@ -1,4 +1,3 @@
-import path from "node:path";
 import type { BuildCommandInput, BuiltCommand } from "./types.js";
 import { hasNative, validateCapabilities } from "./capabilities.js";
 
@@ -32,7 +31,7 @@ export function buildCommand(input: BuildCommandInput): BuiltCommand {
   }
   extra.push(...input.nativeArgs ?? []);
   let insertAt = built.argv.length;
-  if (["codex", "claude", "opencode"].includes(input.name)) insertAt = built.argv.indexOf("--");
+  if (["codex", "claude", "opencode", "opencode2"].includes(input.name)) insertAt = built.argv.indexOf("--");
   if (input.name === "dsh") insertAt = 1;
   if (input.name === "pi") insertAt = built.argv.indexOf(`@${input.briefPath}`);
   built.argv.splice(insertAt, 0, ...extra);
@@ -58,6 +57,8 @@ function buildBaseCommand(input: BuildCommandInput): BuiltCommand {
       return buildDsh(input);
     case "opencode":
       return buildOpenCode(input);
+    case "opencode2":
+      return buildOpenCode2(input);
   }
 }
 
@@ -86,6 +87,7 @@ function buildClaude(input: BuildCommandInput): BuiltCommand {
   ];
   if (input.goal && !hasNative(input.nativeArgs ?? [], ["--verbose"])) argv.push("--verbose");
   if (!hasNative(input.nativeArgs ?? [], ["--permission-mode", "--dangerously-skip-permissions"])) argv.push("--dangerously-skip-permissions");
+  if (input.sessionId) argv.push("--session-id", input.sessionId);
   if (!input.persistSession) argv.push("--no-session-persistence");
   if (input.model) {
     argv.push("--model", input.model);
@@ -121,6 +123,21 @@ function buildOpenCode(input: BuildCommandInput): BuiltCommand {
     cwd: input.worktreePath,
     env: {},
     notes: [],
+  };
+}
+
+function buildOpenCode2(input: BuildCommandInput): BuiltCommand {
+  const argv = [input.executable, "run", "--format", "json"];
+  if (!hasNative(input.nativeArgs ?? [], ["--auto"])) argv.push("--auto");
+  if (input.model) {
+    argv.push("--model", input.model);
+  }
+  argv.push("--", input.promptText);
+  return {
+    argv,
+    cwd: input.worktreePath,
+    env: {},
+    notes: ["opencode2 run has no --dir; cwd is the worktree"],
   };
 }
 
@@ -175,13 +192,12 @@ function buildPi(input: BuildCommandInput): BuiltCommand {
     "-p",
     "--exclude-tools",
     "ask_question",
-    "--session-dir",
-    path.join(input.runDir, "pi-sessions"),
     "--name",
     `harness-${input.runId}`,
     `@${input.briefPath}`,
     "Execute the brief. Do not ask questions.",
   ];
+  if (input.sessionId) argv.push("--session-id", input.sessionId);
   if (!hasNative(input.nativeArgs ?? [], ["--approve", "-a", "--no-approve", "-na"])) argv.push("--approve");
   if (input.persistSession === false) argv.push("--no-session");
   if (input.model) {
@@ -191,7 +207,7 @@ function buildPi(input: BuildCommandInput): BuiltCommand {
     argv,
     cwd: input.worktreePath,
     env: {},
-    notes: ["pi --approve trusts AGENTS.md; it is not a yolo alias"],
+    notes: ["pi sessions go to the default session store so hs can list and resume them"],
   };
 }
 
@@ -208,6 +224,7 @@ function buildGrok(input: BuildCommandInput): BuiltCommand {
   ];
   if (!input.goal && !hasNative(input.nativeArgs ?? [], ["--no-subagents"])) argv.push("--no-subagents");
   if (!hasNative(input.nativeArgs ?? [], ["--permission-mode", "--always-approve", "--yolo", "--dangerously-skip-permissions"])) argv.push("--always-approve");
+  if (input.sessionId) argv.push("--session-id", input.sessionId);
   if (input.maxTurns !== undefined) {
     argv.push("--max-turns", String(input.maxTurns));
   }

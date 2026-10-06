@@ -6,13 +6,13 @@
 
 ```text
 pi --mode json -p --exclude-tools ask_question
-  --session-dir <runDir>/pi-sessions --name harness-<runId>
-  [--thinking <effort>] [<native_args...>]
+  --name harness-<runId>
+  [--session-id <uuid>] [--thinking <effort>] [<native_args...>]
   @<brief.md> "Execute the brief. Do not ask questions."
   --approve [--model <model>] [--no-session]
 ```
 
-以上是 argv 的阅读形式，方括号为可选项，不经 shell 二次展开。工作目录为 runner 创建的 worktree；默认权限参数在提供受支持的显式原生权限模式时被替换。
+以上是 argv 的阅读形式，方括号为可选项，不经 shell 二次展开。工作目录为 runner 创建的 worktree；默认权限参数在提供受支持的显式原生权限模式时被替换。会话写入默认 session store（不再传 `--session-dir` 到 run 私有目录），使 `hs sessions` 能列出并恢复；`--session-id` 在持久化时预生成，作为 Evidence 的 `native_session_id`。
 
 ## 参数映射
 

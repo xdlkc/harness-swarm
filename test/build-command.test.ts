@@ -15,7 +15,7 @@ function base(overrides: Partial<BuildCommandInput> & Pick<BuildCommandInput, "n
 }
 
 describe("buildCommand", () => {
-  for (const name of ["codex", "claude", "dsh", "opencode"] as const) {
+  for (const name of ["codex", "claude", "dsh", "opencode", "opencode2"] as const) {
     it(`${name}: preserves a flag-like multiline prompt as one positional argument`, () => {
       const promptText = '--help\nExplain "quoted text", $HOME and `commands` literally.';
       const input = base({ name, executable: `/custom bin/${name}`, promptText, model: name === "dsh" ? undefined : "provider/model", maxTurns: name === "claude" ? 40 : undefined });
@@ -29,6 +29,8 @@ describe("buildCommand", () => {
           "--model", "provider/model", "--max-turns", "40", "--", promptText],
         dsh: [input.executable, "--profile", "headless", "--", "--", promptText],
         opencode: [input.executable, "run", "--format", "json", "--auto", "--dir", input.worktreePath,
+          "--model", "provider/model", "--", promptText],
+        opencode2: [input.executable, "run", "--format", "json", "--auto",
           "--model", "provider/model", "--", promptText],
       };
       assert.deepEqual(built.argv, expected[name]);
@@ -77,7 +79,7 @@ describe("buildCommand", () => {
     assert.equal(built.env.KIMI_CODE_HOME, undefined);
   });
 
-  it("pi: --mode json, @brief, --approve", () => {
+  it("pi: --mode json, @brief, --approve; no --session-dir", () => {
     const built = buildCommand(base({ name: "pi", executable: "pi" }));
     const argv = built.argv;
     assert.equal(argv[0], "pi");
@@ -86,7 +88,25 @@ describe("buildCommand", () => {
     assert.ok(argv.includes("-p"));
     assert.ok(argv.includes("--approve"));
     assert.ok(argv.some((a) => a === "@/repo/.harness-swarm/runs/r1/brief.md"));
+    assert.ok(!argv.includes("--session-dir"));
     assert.equal(built.cwd, "/repo/.harness-swarm/worktrees/r1");
+  });
+
+  it("seeds --session-id for grok, pi and claude when a session id is provided", () => {
+    const id = "11111111-1111-4111-8111-111111111111";
+    const cases: ["grok" | "pi" | "claude", boolean | undefined][] = [
+      ["grok", undefined], ["pi", undefined], ["claude", true],
+    ];
+    for (const [name, persistSession] of cases) {
+      const built = buildCommand(base({ name, executable: name, sessionId: id, persistSession }));
+      const index = built.argv.indexOf("--session-id");
+      assert.ok(index >= 0, `${name} seeds --session-id`);
+      assert.equal(built.argv[index + 1], id);
+    }
+    const claude = buildCommand(base({ name: "claude", executable: "claude", sessionId: id, persistSession: true }));
+    assert.ok(!claude.argv.includes("--no-session-persistence"));
+    const ephemeralPi = buildCommand(base({ name: "pi", executable: "pi", sessionId: id, persistSession: false }));
+    assert.ok(ephemeralPi.argv.includes("--no-session"));
   });
 
   it("grok: --cwd, --prompt-file, --always-approve, json output; not --worktree", () => {

@@ -28,6 +28,7 @@ describe("listHarnesses", () => {
       claude: '#!/bin/sh\n[ "$1" = "--version" ] && echo claude-stub-6.0\n',
       dsh: '#!/bin/sh\n[ "$1" = "--version" ] && echo dsh-stub-7.0\n',
       opencode: '#!/bin/sh\n[ "$1" = "--version" ] && echo opencode-stub-8.0\n',
+      opencode2: '#!/bin/sh\n[ "$1" = "--version" ] && echo opencode2-stub-9.0\n',
     };
     mkdirSync(dir, { recursive: true });
     for (const [name, body] of Object.entries(scripts)) {
@@ -36,7 +37,7 @@ describe("listHarnesses", () => {
       chmodSync(p, 0o755);
     }
     const listed = listHarnesses(dir);
-    assert.equal(listed.length, 8);
+    assert.equal(listed.length, 9);
     for (const row of listed) {
       assert.equal(row.installed, true);
       assert.ok(row.path && row.path.length > 0, `${row.name} path`);
@@ -46,7 +47,7 @@ describe("listHarnesses", () => {
     assert.match(listed.find((h) => h.name === "kimi")!.version!, /kimi-stub-2.0/);
     assert.match(listed.find((h) => h.name === "pi")!.version!, /pi-stub-3.0/);
     assert.match(listed.find((h) => h.name === "grok")!.version!, /grok-stub-4.0/);
-    for (const name of ["codex", "claude", "dsh", "opencode"] as const) {
+    for (const name of ["codex", "claude", "dsh", "opencode", "opencode2"] as const) {
       assert.match(listed.find((h) => h.name === name)!.version!, new RegExp(`${name}-stub-`));
     }
   });

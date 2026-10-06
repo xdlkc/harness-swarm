@@ -191,6 +191,12 @@ const VALUE_FLAGS: Record<HarnessName, Record<string, Arity>> = {
     "--title": "value", "--attach": "value", "-p": "value", "--password": "value",
     "-u": "value", "--username": "value", "--dir": "value", "--port": "value",
     "--variant": "value", "--format": "value", "--replay-limit": "value"
+  },
+  "opencode2": {
+    "--server": "value", "-s": "value", "--session": "value", "-m": "value", "--model": "value",
+    "--format": "value", "-f": "value", "--file": "value", "--title": "value", "--agent": "value",
+    "--standalone": "optional", "--continue": "optional", "-c": "optional",
+    "--fork": "optional", "--thinking": "optional", "--auto": "optional"
   }
 };
 

@@ -16,18 +16,20 @@ export const HARNESS_CAPABILITIES: Record<HarnessName, HarnessCapabilities> = {
   claude: capability({ effort: true, max_turns: true, goal: true, token_budget: "task", max_budget_usd: true, persist_session: true }),
   dsh: capability({ model: false }),
   opencode: capability({ effort: true }),
+  opencode2: capability({}),
 };
 
 // These flags select the execution transport, prompt, or worktree owned by the runner.
 const RESERVED: Record<HarnessName, string[]> = {
   qoder: ["--workspace", "-w", "--worktree", "--branch", "-p", "--print", "-f", "--output-format", "--input-format"],
   kimi: ["-p", "--prompt", "--output-format", "--yolo", "-y", "--yes", "--auto", "--auto-approve", "--plan"],
-  pi: ["--mode", "-p", "--print", "--session-dir", "--no-session", "--export", "--list-models"],
-  grok: ["--cwd", "-w", "--worktree", "--worktree-ref", "--ref", "--restore-code", "-p", "--single", "--print", "--prompt-file", "--prompt-json", "--output-format", "--verbatim"],
+  pi: ["--mode", "-p", "--print", "--session-dir", "--session-id", "--no-session", "--export", "--list-models"],
+  grok: ["--cwd", "-w", "--worktree", "--worktree-ref", "--ref", "--restore-code", "-p", "--single", "--print", "--prompt-file", "--prompt-json", "--output-format", "--verbatim", "--session-id", "-s"],
   codex: ["--cd", "-C", "--worktree", "--json", "--ephemeral", "--output-last-message", "-o"],
-  claude: ["-p", "--print", "--input-format", "--output-format", "-w", "--worktree", "--no-session-persistence", "--remote-control", "--rc", "--cloud", "--remote"],
+  claude: ["-p", "--print", "--input-format", "--output-format", "-w", "--worktree", "--no-session-persistence", "--remote-control", "--rc", "--cloud", "--remote", "--session-id"],
   dsh: ["--profile", "--dump-config", "--dump-default-config"],
   opencode: ["--dir", "--attach", "--format", "--interactive", "-i", "--mini", "--share"],
+  opencode2: ["--format", "--session", "-s", "--continue", "-c", "--fork", "--standalone", "--server"],
 };
 
 export function hasNative(args: string[], flags: string[]): boolean {
