@@ -7,8 +7,8 @@
 本页原始 help/source 快照保持采集时内容；现行结构化参数、`native_args` 透传、Goal、权限及持久化映射见 [README.md](README.md)。未支持的 swarm 字段会提前报错，不再忽略。native_args 按已记录任务选项的参数数量校验；未记录/扩展 flag 的值需 `--flag=value`，游离子命令和保留字段覆盖会被拒绝。原生子命令清单不代表它们都能通过 native_args 执行。帮助采集的“未执行任务”只描述采集过程；随后普通模型任务冒烟记录见 [design.md](../design.md#验证记录)，不等于穷尽高级参数或 Goal 实测。
 
 采集日期：2026-09-15（Asia/Shanghai）。版本：`2.1.177 (Claude Code)`。
-- 可执行入口：`/Users/lkc/.local/bin/claude`
-- 解析后路径：`/Users/lkc/.local/share/claude/versions/2.1.177`
+- 可执行入口：`~/.local/bin/claude`
+- 解析后路径：`~/.local/share/claude/versions/2.1.177`
 - 版本命令：`claude --version`
 - 平台：macOS；其他平台的条件命令不属于本机帮助快照。
 ## 范围与证据
@@ -1146,7 +1146,7 @@ Options:
 
 ## 隐藏参数：本机二进制注册证据
 
-`claude --help` 不是全部注册选项。以下从 **2.1.177 的本机原生二进制内嵌 JavaScript 选项注册代码**静态读取，未执行这些选项。来源是 `/Users/lkc/.local/share/claude/versions/2.1.177`；这是选项注册证据，功能开关、账号权限和业务效果仍未实跑。表中英文说明来自该安装包；没有用在线新版本参数替换本机参数。
+`claude --help` 不是全部注册选项。以下从 **2.1.177 的本机原生二进制内嵌 JavaScript 选项注册代码**静态读取，未执行这些选项。来源是 `~/.local/share/claude/versions/2.1.177`；这是选项注册证据，功能开关、账号权限和业务效果仍未实跑。表中英文说明来自该安装包；没有用在线新版本参数替换本机参数。
 
 这张表补充根帮助未显示的选项。内部 SDK、deep-link 和 teammate 参数同样列出以免遗漏，但它们不等于稳定公共接口。`--task-budget` 限制 API 侧任务 token 预算；`--max-budget-usd` 限制花费；`--max-turns` 限制 agentic turns，三者含义不同。
 

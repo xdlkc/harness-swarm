@@ -7,7 +7,7 @@
 本页原始 help/source 快照保持采集时内容；现行结构化参数、`native_args` 透传、Goal、权限及持久化映射见 [README.md](README.md)。未支持的 swarm 字段会提前报错，不再忽略。native_args 按已记录任务选项的参数数量校验；未记录/扩展 flag 的值需 `--flag=value`，游离子命令和保留字段覆盖会被拒绝。原生子命令清单不代表它们都能通过 native_args 执行。帮助采集的“未执行任务”只描述采集过程；随后普通模型任务冒烟记录见 [design.md](../design.md#验证记录)，不等于穷尽高级参数或 Goal 实测。
 
 
-采集日期：2026-09-15（Asia/Shanghai）。PATH：`/Users/lkc/.local/bin/grok`；真实路径：`/Users/lkc/.grok/bin/grok`。
+采集日期：2026-09-15（Asia/Shanghai）。PATH：`~/.local/bin/grok`；真实路径：`~/.grok/bin/grok`。
 
 ```text
 $ grok --version

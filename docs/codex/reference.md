@@ -3872,7 +3872,7 @@ Options:
 
 官方交互命令：`/goal <objective>`、`/goal`、`/goal edit`、`/goal pause`、`/goal resume`、`/goal clear`；目标文本上限 4,000 字符。这些是 TUI 会话命令，当前 `codex exec --help` 没有 `--goal`。不要推断 `exec` 会把以 `/goal` 开头的普通 prompt 自动解释为同样的命令。[官方 Developer commands](https://learn.chatgpt.com/docs/developer-commands?surface=cli)
 
-本地源码补证来自 `/Users/lkc/Code/best-harness/repos/codex`，提交 **`c4941302c73c6322b153bba13ac0a9f4396301d6`**；采集时该工作树干净，`git describe` 为 `codex-zsh-v0.1.0-1475-gc4941302c7`。这不是安装包版本标识，不能证明与 `codex-cli 0.154.0` 完全一致。
+本地源码补证来自 `~/Code/best-harness/repos/codex`，提交 **`c4941302c73c6322b153bba13ac0a9f4396301d6`**；采集时该工作树干净，`git describe` 为 `codex-zsh-v0.1.0-1475-gc4941302c7`。这不是安装包版本标识，不能证明与 `codex-cli 0.154.0` 完全一致。
 
 - `codex-rs/app-server/README.md` 的 goal 示例描述 `thread/goal/set`、`thread/goal/get`、`thread/goal/clear` 以及更新/清除通知。
 - `thread/goal/set` 示例参数含 `threadId`、`objective`、`tokenBudget`；若 `goals.max_goal_token_budget` 配置了上限，新目标预算受其约束。

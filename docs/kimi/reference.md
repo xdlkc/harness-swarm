@@ -11,8 +11,8 @@
 | --- | --- |
 | harness 名称 | `kimi` |
 | 可执行命令 | `kimi` |
-| PATH 解析路径 | `/Users/lkc/.kimi-code/bin/kimi` |
-| 实际文件 | `/Users/lkc/.kimi-code/bin/kimi` |
+| PATH 解析路径 | `~/.kimi-code/bin/kimi` |
+| 实际文件 | `~/.kimi-code/bin/kimi` |
 | 版本命令 | `kimi -V` |
 | 版本输出 | `0.41.0` |
 | SHA-256 | `09419f28548178d879d0835b2bc63a184cdc42816c0ab90f515ab259dc6a9548` |

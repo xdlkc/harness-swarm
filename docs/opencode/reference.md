@@ -272,7 +272,7 @@ Options:
       --mdns-domain  custom domain name for mDNS service (default: opencode.local)
                                                                 [string] [default: "opencode.local"]
       --cors         additional domains to allow for CORS                      [array] [default: []]
-      --cwd          working directory           [string] [default: "/Users/lkc/Code/harness-swarm"]
+      --cwd          working directory           [string] [default: "~/Code/harness-swarm"]
 ```
 
 ### `opencode mcp --help`

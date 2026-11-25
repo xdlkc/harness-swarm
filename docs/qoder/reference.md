@@ -11,8 +11,8 @@
 | --- | --- |
 | harness 名称 | `qoder` |
 | 可执行命令 | `qodercli` |
-| PATH 解析路径 | `/Users/lkc/.local/bin/qodercli` |
-| 实际文件 | `/Users/lkc/.qoder/bin/qodercli/qodercli-0.1.20` |
+| PATH 解析路径 | `~/.local/bin/qodercli` |
+| 实际文件 | `~/.qoder/bin/qodercli/qodercli-0.1.20` |
 | 版本命令 | `qodercli -v` |
 | 版本输出 | `0.1.20` |
 | SHA-256 | `acf302993c4cfebdf252561bf106d620701c90fbf3e2d2ccf4758a446f491398` |

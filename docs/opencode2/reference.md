@@ -6,7 +6,7 @@
 
 本页原始 help/source 快照保持采集时内容；现行结构化参数、`native_args` 透传、会话历史映射见 [README.md](README.md)。未支持的 swarm 字段会提前报错，不再忽略。native_args 按已记录任务选项的参数数量校验；未记录/扩展 flag 的值需 `--flag=value`。原生子命令清单不代表它们都能通过 native_args 执行。帮助采集的“未执行任务”只描述采集过程；opencode2 的 `run` 与 resume/fork 尚未做真实模型任务冒烟。
 
-采集日期：2026-09-20（Asia/Shanghai）。版本：`opencode2 v0.0.0-beta-19192`。可执行文件：`/Users/lkc/.opencode/bin/opencode2`（Mach-O 64-bit，Go 重写的 "OpenCode 2.0 preview"，不在 `PATH`）。
+采集日期：2026-09-20（Asia/Shanghai）。版本：`opencode2 v0.0.0-beta-19192`。可执行文件：`~/.opencode/bin/opencode2`（Mach-O 64-bit，Go 重写的 "OpenCode 2.0 preview"，不在 `PATH`）。
 
 ```text
 $ opencode2 --version
@@ -19,15 +19,15 @@ opencode2 是 client-server 架构。会话由后台 service 持有，客户端�
 
 ```text
 $ opencode2 debug paths
-home       /Users/lkc
-data       /Users/lkc/.local/share/opencode
-cache      /Users/lkc/.cache/opencode
-config     /Users/lkc/.config/opencode
-state      /Users/lkc/.local/state/opencode
+home       ~
+data       ~/.local/share/opencode
+cache      ~/.cache/opencode
+config     ~/.config/opencode
+state      ~/.local/state/opencode
 tmp        /private/var/folders/…/opencode
-bin        /Users/lkc/.cache/opencode/bin
-log        /Users/lkc/.local/share/opencode/log
-repos      /Users/lkc/.local/share/opencode/repos
+bin        ~/.cache/opencode/bin
+log        ~/.local/share/opencode/log
+repos      ~/.local/share/opencode/repos
 ```
 
 ## 命令索引
